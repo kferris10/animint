@@ -441,31 +441,63 @@
 "geom2_point_s7",
 "geom3_point_s7" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [  0.227, 0.54539, 0.86377 ],
+"y": [ 0.24839, 0.52273, 0.79708 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.067808, 0.38619, 0.70458 ],
+"y": [ 0.11121, 0.38556, 0.65991, 0.93425 ] 
+} 
+},
 "axis1": {
  "x": [
- 0.21572,
-0.51768,
-0.81965 
+  0.227,
+0.54539,
+0.86377 
 ],
 "xlab": [
  "-1",
 "0",
 "1" 
 ],
-"xrange": [ -1.7144, 1.5973 ],
+"xrange": [ -1.713, 1.4279 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.21251,
-0.48828,
-0.76405 
+ 0.24839,
+0.52273,
+0.79708 
 ],
 "ylab": [
  "-1",
 "0",
 "1" 
 ],
-"yrange": [ -1.7706, 1.8556 ],
+"yrange": [ -1.9054, 1.7397 ],
 "yline": true,
 "yticks": true 
 },
@@ -492,26 +524,14 @@
 "title": "quad",
 "entries": [
  {
- "label": [ "Q4" ],
-"polygoncolour": "#C77CFF",
-"polygonfill": "#C77CFF",
+ "label": [ "Q1" ],
+"polygoncolour": "#F8766D",
+"polygonfill": "#F8766D",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
 "polygonalpha":    0.3,
-"pointcolour": "#C77CFF",
-"pointfill": "#C77CFF",
-"pointshape":     16,
-"pointsize":      5 
-},
-{
- "label": [ "Q3" ],
-"polygoncolour": "#00BFC4",
-"polygonfill": "#00BFC4",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonalpha":    0.3,
-"pointcolour": "#00BFC4",
-"pointfill": "#00BFC4",
+"pointcolour": "#F8766D",
+"pointfill": "#F8766D",
 "pointshape":     16,
 "pointsize":      5 
 },
@@ -528,14 +548,26 @@
 "pointsize":      5 
 },
 {
- "label": [ "Q1" ],
-"polygoncolour": "#F8766D",
-"polygonfill": "#F8766D",
+ "label": [ "Q3" ],
+"polygoncolour": "#00BFC4",
+"polygonfill": "#00BFC4",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
 "polygonalpha":    0.3,
-"pointcolour": "#F8766D",
-"pointfill": "#F8766D",
+"pointcolour": "#00BFC4",
+"pointfill": "#00BFC4",
+"pointshape":     16,
+"pointsize":      5 
+},
+{
+ "label": [ "Q4" ],
+"polygoncolour": "#C77CFF",
+"polygonfill": "#C77CFF",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"polygonalpha":    0.3,
+"pointcolour": "#C77CFF",
+"pointfill": "#C77CFF",
 "pointshape":     16,
 "pointsize":      5 
 } 
@@ -577,31 +609,63 @@
  "geom4_point_s8",
 "geom5_point_s8" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [  0.227, 0.54539, 0.86377 ],
+"y": [ 0.24839, 0.52273, 0.79708 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.067808, 0.38619, 0.70458 ],
+"y": [ 0.11121, 0.38556, 0.65991, 0.93425 ] 
+} 
+},
 "axis1": {
  "x": [
- 0.21572,
-0.51768,
-0.81965 
+  0.227,
+0.54539,
+0.86377 
 ],
 "xlab": [
  "-1",
 "0",
 "1" 
 ],
-"xrange": [ -1.7144, 1.5973 ],
+"xrange": [ -1.713, 1.4279 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.21251,
-0.48828,
-0.76405 
+ 0.24839,
+0.52273,
+0.79708 
 ],
 "ylab": [
  "-1",
 "0",
 "1" 
 ],
-"yrange": [ -1.7706, 1.8556 ],
+"yrange": [ -1.9054, 1.7397 ],
 "yline": true,
 "yticks": true 
 },
@@ -628,20 +692,12 @@
 "title": "quad",
 "entries": [
  {
- "pointcolour": "#C77CFF",
-"pointfill": "#C77CFF",
+ "pointcolour": "#F8766D",
+"pointfill": "#F8766D",
 "pointshape":     16,
 "pointsize":      2,
 "pointalpha":      1,
-"label": [ "Q4" ] 
-},
-{
- "pointcolour": "#00BFC4",
-"pointfill": "#00BFC4",
-"pointshape":     16,
-"pointsize":      2,
-"pointalpha":      1,
-"label": [ "Q3" ] 
+"label": [ "Q1" ] 
 },
 {
  "pointcolour": "#7CAE00",
@@ -652,12 +708,20 @@
 "label": [ "Q2" ] 
 },
 {
- "pointcolour": "#F8766D",
-"pointfill": "#F8766D",
+ "pointcolour": "#00BFC4",
+"pointfill": "#00BFC4",
 "pointshape":     16,
 "pointsize":      2,
 "pointalpha":      1,
-"label": [ "Q1" ] 
+"label": [ "Q3" ] 
+},
+{
+ "pointcolour": "#C77CFF",
+"pointfill": "#C77CFF",
+"pointshape":     16,
+"pointsize":      2,
+"pointalpha":      1,
+"label": [ "Q4" ] 
 } 
 ] 
 } 
@@ -697,31 +761,63 @@
  "geom6_point_s9",
 "geom7_point_s9" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [  0.227, 0.54539, 0.86377 ],
+"y": [ 0.24839, 0.52273, 0.79708 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.067808, 0.38619, 0.70458 ],
+"y": [ 0.11121, 0.38556, 0.65991, 0.93425 ] 
+} 
+},
 "axis1": {
  "x": [
- 0.21572,
-0.51768,
-0.81965 
+  0.227,
+0.54539,
+0.86377 
 ],
 "xlab": [
  "-1",
 "0",
 "1" 
 ],
-"xrange": [ -1.7144, 1.5973 ],
+"xrange": [ -1.713, 1.4279 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.21251,
-0.48828,
-0.76405 
+ 0.24839,
+0.52273,
+0.79708 
 ],
 "ylab": [
  "-1",
 "0",
 "1" 
 ],
-"yrange": [ -1.7706, 1.8556 ],
+"yrange": [ -1.9054, 1.7397 ],
 "yline": true,
 "yticks": true 
 },
@@ -748,20 +844,12 @@
 "title": "quad",
 "entries": [
  {
- "pointcolour": "#C77CFF",
-"pointfill": "#C77CFF",
+ "pointcolour": "#F8766D",
+"pointfill": "#F8766D",
 "pointshape":     16,
 "pointsize":      2,
 "pointalpha":      1,
-"label": [ "Q4" ] 
-},
-{
- "pointcolour": "#00BFC4",
-"pointfill": "#00BFC4",
-"pointshape":     16,
-"pointsize":      2,
-"pointalpha":      1,
-"label": [ "Q3" ] 
+"label": [ "Q1" ] 
 },
 {
  "pointcolour": "#7CAE00",
@@ -772,12 +860,20 @@
 "label": [ "Q2" ] 
 },
 {
- "pointcolour": "#F8766D",
-"pointfill": "#F8766D",
+ "pointcolour": "#00BFC4",
+"pointfill": "#00BFC4",
 "pointshape":     16,
 "pointsize":      2,
 "pointalpha":      1,
-"label": [ "Q1" ] 
+"label": [ "Q3" ] 
+},
+{
+ "pointcolour": "#C77CFF",
+"pointfill": "#C77CFF",
+"pointshape":     16,
+"pointsize":      2,
+"pointalpha":      1,
+"label": [ "Q4" ] 
 } 
 ] 
 } 
@@ -817,31 +913,63 @@
  "geom8_point_s10",
 "geom9_point_s10" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [  0.227, 0.54539, 0.86377 ],
+"y": [ 0.24839, 0.52273, 0.79708 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.067808, 0.38619, 0.70458 ],
+"y": [ 0.11121, 0.38556, 0.65991, 0.93425 ] 
+} 
+},
 "axis1": {
  "x": [
- 0.21572,
-0.51768,
-0.81965 
+  0.227,
+0.54539,
+0.86377 
 ],
 "xlab": [
  "-1",
 "0",
 "1" 
 ],
-"xrange": [ -1.7144, 1.5973 ],
+"xrange": [ -1.713, 1.4279 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.21251,
-0.48828,
-0.76405 
+ 0.24839,
+0.52273,
+0.79708 
 ],
 "ylab": [
  "-1",
 "0",
 "1" 
 ],
-"yrange": [ -1.7706, 1.8556 ],
+"yrange": [ -1.9054, 1.7397 ],
 "yline": true,
 "yticks": true 
 },
@@ -868,20 +996,12 @@
 "title": "quad",
 "entries": [
  {
- "pointcolour": "#C77CFF",
-"pointfill": "#C77CFF",
+ "pointcolour": "#F8766D",
+"pointfill": "#F8766D",
 "pointshape":     16,
 "pointsize":      2,
 "pointalpha":      1,
-"label": [ "Q4" ] 
-},
-{
- "pointcolour": "#00BFC4",
-"pointfill": "#00BFC4",
-"pointshape":     16,
-"pointsize":      2,
-"pointalpha":      1,
-"label": [ "Q3" ] 
+"label": [ "Q1" ] 
 },
 {
  "pointcolour": "#7CAE00",
@@ -892,12 +1012,20 @@
 "label": [ "Q2" ] 
 },
 {
- "pointcolour": "#F8766D",
-"pointfill": "#F8766D",
+ "pointcolour": "#00BFC4",
+"pointfill": "#00BFC4",
 "pointshape":     16,
 "pointsize":      2,
 "pointalpha":      1,
-"label": [ "Q1" ] 
+"label": [ "Q3" ] 
+},
+{
+ "pointcolour": "#C77CFF",
+"pointfill": "#C77CFF",
+"pointshape":     16,
+"pointsize":      2,
+"pointalpha":      1,
+"label": [ "Q4" ] 
 } 
 ] 
 } 
@@ -937,31 +1065,63 @@
  "geom10_point_s11",
 "geom11_point_s11" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [  0.227, 0.54539, 0.86377 ],
+"y": [ 0.24839, 0.52273, 0.79708 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.067808, 0.38619, 0.70458 ],
+"y": [ 0.11121, 0.38556, 0.65991, 0.93425 ] 
+} 
+},
 "axis1": {
  "x": [
- 0.21572,
-0.51768,
-0.81965 
+  0.227,
+0.54539,
+0.86377 
 ],
 "xlab": [
  "-1",
 "0",
 "1" 
 ],
-"xrange": [ -1.7144, 1.5973 ],
+"xrange": [ -1.713, 1.4279 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.21251,
-0.48828,
-0.76405 
+ 0.24839,
+0.52273,
+0.79708 
 ],
 "ylab": [
  "-1",
 "0",
 "1" 
 ],
-"yrange": [ -1.7706, 1.8556 ],
+"yrange": [ -1.9054, 1.7397 ],
 "yline": true,
 "yticks": true 
 },
@@ -988,21 +1148,21 @@
 "title": "str",
 "entries": [
  {
- "pointsize":   5.51,
+ "pointsize":   5.42,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointalpha":    0.5,
 "label": [ "0.4" ] 
 },
 {
- "pointsize":   4.36,
+ "pointsize":    4.3,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointalpha":    0.5,
 "label": [ "0.3" ] 
 },
 {
- "pointsize":   3.22,
+ "pointsize":   3.18,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointalpha":    0.5,
@@ -1023,20 +1183,12 @@
 "title": "quad",
 "entries": [
  {
- "pointcolour": "#C77CFF",
-"pointfill": "#C77CFF",
+ "pointcolour": "#F8766D",
+"pointfill": "#F8766D",
 "pointshape":     16,
 "pointsize":      2,
 "pointalpha":    0.5,
-"label": [ "Q4" ] 
-},
-{
- "pointcolour": "#00BFC4",
-"pointfill": "#00BFC4",
-"pointshape":     16,
-"pointsize":      2,
-"pointalpha":    0.5,
-"label": [ "Q3" ] 
+"label": [ "Q1" ] 
 },
 {
  "pointcolour": "#7CAE00",
@@ -1047,12 +1199,20 @@
 "label": [ "Q2" ] 
 },
 {
- "pointcolour": "#F8766D",
-"pointfill": "#F8766D",
+ "pointcolour": "#00BFC4",
+"pointfill": "#00BFC4",
 "pointshape":     16,
 "pointsize":      2,
 "pointalpha":    0.5,
-"label": [ "Q1" ] 
+"label": [ "Q3" ] 
+},
+{
+ "pointcolour": "#C77CFF",
+"pointfill": "#C77CFF",
+"pointshape":     16,
+"pointsize":      2,
+"pointalpha":    0.5,
+"label": [ "Q4" ] 
 } 
 ] 
 } 
@@ -1091,31 +1251,63 @@
 "geoms": [
  "geom12_point_s12" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [  0.227, 0.54539, 0.86377 ],
+"y": [ 0.24839, 0.52273, 0.79708 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.067808, 0.38619, 0.70458 ],
+"y": [ 0.11121, 0.38556, 0.65991, 0.93425 ] 
+} 
+},
 "axis1": {
  "x": [
- 0.21572,
-0.51768,
-0.81965 
+  0.227,
+0.54539,
+0.86377 
 ],
 "xlab": [
  "-1",
 "0",
 "1" 
 ],
-"xrange": [ -1.7144, 1.5973 ],
+"xrange": [ -1.713, 1.4279 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.21251,
-0.48828,
-0.76405 
+ 0.24839,
+0.52273,
+0.79708 
 ],
 "ylab": [
  "-1",
 "0",
 "1" 
 ],
-"yrange": [ -1.7706, 1.8556 ],
+"yrange": [ -1.9054, 1.7397 ],
 "yline": true,
 "yticks": true 
 },
@@ -1142,28 +1334,28 @@
 "title": "str",
 "entries": [
  {
- "pointsize": 5.7047,
+ "pointsize": 5.6477,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointalpha":    0.5,
 "label": [ "0.4" ] 
 },
 {
- "pointsize": 4.9404,
+ "pointsize": 4.8892,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointalpha":    0.5,
 "label": [ "0.3" ] 
 },
 {
- "pointsize": 4.0339,
+ "pointsize":  3.989,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointalpha":    0.5,
 "label": [ "0.2" ] 
 },
 {
- "pointsize": 2.8524,
+ "pointsize":  2.827,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointalpha":    0.5,
@@ -1177,20 +1369,12 @@
 "title": "quad",
 "entries": [
  {
- "pointcolour": "#C77CFF",
-"pointfill": "#C77CFF",
+ "pointcolour": "#F8766D",
+"pointfill": "#F8766D",
 "pointshape":     16,
 "pointsize":      2,
 "pointalpha":    0.5,
-"label": [ "Q4" ] 
-},
-{
- "pointcolour": "#00BFC4",
-"pointfill": "#00BFC4",
-"pointshape":     16,
-"pointsize":      2,
-"pointalpha":    0.5,
-"label": [ "Q3" ] 
+"label": [ "Q1" ] 
 },
 {
  "pointcolour": "#7CAE00",
@@ -1201,12 +1385,20 @@
 "label": [ "Q2" ] 
 },
 {
- "pointcolour": "#F8766D",
-"pointfill": "#F8766D",
+ "pointcolour": "#00BFC4",
+"pointfill": "#00BFC4",
 "pointshape":     16,
 "pointsize":      2,
 "pointalpha":    0.5,
-"label": [ "Q1" ] 
+"label": [ "Q3" ] 
+},
+{
+ "pointcolour": "#C77CFF",
+"pointfill": "#C77CFF",
+"pointshape":     16,
+"pointsize":      2,
+"pointalpha":    0.5,
+"label": [ "Q4" ] 
 } 
 ] 
 } 

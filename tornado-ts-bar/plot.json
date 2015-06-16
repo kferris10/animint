@@ -41,8 +41,8 @@
 "clickSelects": "state" 
 },
 "params": {
- "colour": "grey",
-"fill": "black" 
+ "colour": "#BEBEBE",
+"fill": "#000000" 
 },
 "subset_order": [],
 "types": {
@@ -323,6 +323,38 @@
 "geom2_polygon_map",
 "geom3_segment_map" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.11924, 0.4345, 0.74975 ],
+"y": [ 0.040705, 0.22347, 0.40624, 0.58901, 0.77178, 0.95455 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.27687, 0.59212, 0.90737 ],
+"y": [ 0.13209, 0.31486, 0.49763, 0.68039, 0.86316 ] 
+} 
+},
 "axis1": {
  "x": [
  0.11924,
@@ -387,6 +419,38 @@
  "geom4_text_ts",
 "geom5_bar_ts" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.19649, 0.48555, 0.77461 ],
+"y": [ 0.045455, 0.27273,    0.5, 0.72727, 0.95455 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.051958, 0.34102, 0.63008, 0.91914 ],
+"y": [ 0.15909, 0.38636, 0.61364, 0.84091 ] 
+} 
+},
 "axis1": {
  "x": [
  0.19649,

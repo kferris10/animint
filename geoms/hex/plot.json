@@ -62,23 +62,55 @@
 "geoms": [
  "geom1_hex_g21" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.33045, 0.6912 ],
+"y": [ 0.018717, 0.27145, 0.52419, 0.77693 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.15007, 0.51082, 0.87157 ],
+"y": [ 0.14509, 0.39782, 0.65056, 0.9033 ] 
+} 
+},
 "axis1": {
  "x": [
- 0.3207,
-0.6717 
+ 0.33045,
+0.6912 
 ],
 "xlab": [
  "1",
 "2" 
 ],
-"xrange": [ 0.086332, 2.9353 ],
+"xrange": [ 0.083999,  2.856 ],
 "xline": true,
 "xticks": true,
 "y": [
  0.018717,
-0.27421,
-0.52971,
-0.78521 
+0.27145,
+0.52419,
+0.77693 
 ],
 "ylab": [
  "0",
@@ -86,7 +118,7 @@
 "10000",
 "15000" 
 ],
-"yrange": [ -366.28,  19203 ],
+"yrange": [ -370.28,  19413 ],
 "yline": true,
 "yticks": true 
 },
@@ -113,14 +145,24 @@
 "title": "count",
 "entries": [
  {
- "polygonfill": "#234B6E",
+ "polygonfill": "#142D46",
 "polygonsize":    0.5,
-"label": [ "100" ] 
+"label": [ "120" ] 
 },
 {
- "polygonfill": "#3C7DB1",
+ "polygonfill": "#234B6F",
 "polygonsize":    0.5,
-"label": [ "50" ] 
+"label": [ "90" ] 
+},
+{
+ "polygonfill": "#336C9A",
+"polygonsize":    0.5,
+"label": [ "60" ] 
+},
+{
+ "polygonfill": "#448EC8",
+"polygonsize":    0.5,
+"label": [ "30" ] 
 } 
 ] 
 } 

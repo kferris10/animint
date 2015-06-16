@@ -87,6 +87,38 @@
  "geom1_polygon_g5",
 "geom2_text_g5" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.045455, 0.27273,    0.5, 0.72727, 0.95455 ],
+"y": [ 0.045455, 0.27273,    0.5, 0.72727, 0.95455 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.15909, 0.38636, 0.61364, 0.84091 ],
+"y": [ 0.15909, 0.38636, 0.61364, 0.84091 ] 
+} 
+},
 "axis1": {
  "x": [
  0.045455,

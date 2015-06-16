@@ -68,6 +68,37 @@
 "geoms": [
  "geom1_area_g19" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.073171, 0.19512, 0.31707, 0.43902, 0.56098, 0.68293, 0.80488, 0.92683 ],
+"y": [ 0.045455, 0.38002, 0.71458 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "y": [ 0.21274, 0.5473, 0.88186 ] 
+} 
+},
 "axis1": {
  "x": [
  0.073171,
@@ -134,25 +165,11 @@
 "title": "cut",
 "entries": [
  {
- "polygoncolour": "#E76BF3",
-"polygonfill": "#E76BF3",
+ "polygoncolour": "#F8766D",
+"polygonfill": "#F8766D",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
-"label": [ "Ideal" ] 
-},
-{
- "polygoncolour": "#00B0F6",
-"polygonfill": "#00B0F6",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"label": [ "Premium" ] 
-},
-{
- "polygoncolour": "#00BF7D",
-"polygonfill": "#00BF7D",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"label": [ "Very Good" ] 
+"label": [ "Fair" ] 
 },
 {
  "polygoncolour": "#A3A500",
@@ -162,11 +179,25 @@
 "label": [ "Good" ] 
 },
 {
- "polygoncolour": "#F8766D",
-"polygonfill": "#F8766D",
+ "polygoncolour": "#00BF7D",
+"polygonfill": "#00BF7D",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
-"label": [ "Fair" ] 
+"label": [ "Very Good" ] 
+},
+{
+ "polygoncolour": "#00B0F6",
+"polygonfill": "#00B0F6",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"label": [ "Premium" ] 
+},
+{
+ "polygoncolour": "#E76BF3",
+"polygonfill": "#E76BF3",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"label": [ "Ideal" ] 
 } 
 ] 
 } 

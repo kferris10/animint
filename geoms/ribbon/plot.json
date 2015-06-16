@@ -63,6 +63,38 @@
 "geoms": [
  "geom1_ribbon_g2" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.045455, 0.27273,    0.5, 0.72727, 0.95455 ],
+"y": [ 0.036042, 0.35897, 0.68189 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.15909, 0.38636, 0.61364, 0.84091 ],
+"y": [ 0.1975, 0.52043, 0.84335 ] 
+} 
+},
 "axis1": {
  "x": [
  0.045455,
@@ -82,18 +114,16 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.042196,
-0.35904,
-0.67588,
-0.99273 
+ 0.036042,
+0.35897,
+0.68189 
 ],
 "ylab": [
  "0",
 "1",
-"2",
-"3" 
+"2" 
 ],
-"yrange": [ -0.13317, 3.0229 ],
+"yrange": [ -0.11161, 2.9851 ],
 "yline": true,
 "yticks": true 
 },
@@ -112,8 +142,7 @@
 "ylabs": [
  "0",
 "1",
-"2",
-"3" 
+"2" 
 ],
 "legend": {
  "group": {
@@ -122,18 +151,18 @@
 "title": "group",
 "entries": [
  {
- "polygonfill": "#00BFC4",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonalpha":    0.5,
-"label": [ "high" ] 
-},
-{
  "polygonfill": "#F8766D",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
 "polygonalpha":    0.5,
 "label": [ "low" ] 
+},
+{
+ "polygonfill": "#00BFC4",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"polygonalpha":    0.5,
+"label": [ "high" ] 
 } 
 ] 
 } 

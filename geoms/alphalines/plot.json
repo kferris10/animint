@@ -167,6 +167,38 @@
 "geoms": [
  "geom1_line_p8" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.19697, 0.44949, 0.70202, 0.95455 ],
+"y": [ 0.15033, 0.3579, 0.56548, 0.77305, 0.98062 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.070707, 0.32323, 0.57576, 0.82828 ],
+"y": [ 0.046548, 0.25412, 0.46169, 0.66926, 0.87683 ] 
+} 
+},
 "axis1": {
  "x": [
  0.19697,
@@ -184,11 +216,11 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.15094,
-0.3586,
-0.56625,
-0.77391,
-0.98157 
+ 0.15033,
+0.3579,
+0.56548,
+0.77305,
+0.98062 
 ],
 "ylab": [
  "0",
@@ -197,7 +229,7 @@
 "15",
 "20" 
 ],
-"yrange": [ -3.6343, 20.444 ],
+"yrange": [ -3.6213, 20.467 ],
 "yline": true,
 "yticks": true 
 },
@@ -255,6 +287,38 @@
 "geoms": [
  "geom2_line_p9" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.19697, 0.44949, 0.70202, 0.95455 ],
+"y": [ 0.089123, 0.31249, 0.53586, 0.75923, 0.9826 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.070707, 0.32323, 0.57576, 0.82828 ],
+"y": [ 0.20081, 0.42418, 0.64755, 0.87092 ] 
+} 
+},
 "axis1": {
  "x": [
  0.19697,
@@ -272,18 +336,20 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.11738,
-0.39337,
-0.66937,
-0.94536 
+ 0.089123,
+0.31249,
+0.53586,
+0.75923,
+0.9826 
 ],
 "ylab": [
  "0",
 "5",
 "10",
-"15" 
+"15",
+"20" 
 ],
-"yrange": [ -2.1265,  15.99 ],
+"yrange": [ -1.995, 20.389 ],
 "yline": true,
 "yticks": true 
 },
@@ -303,7 +369,8 @@
  "0",
 "5",
 "10",
-"15" 
+"15",
+"20" 
 ],
 "legend": {},
 "title": "Constant alpha, I(linetype)",
@@ -340,6 +407,38 @@
 "geoms": [
  "geom3_line_p10" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.19697, 0.44949, 0.70202, 0.95455 ],
+"y": [ 0.089123, 0.31249, 0.53586, 0.75923, 0.9826 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.070707, 0.32323, 0.57576, 0.82828 ],
+"y": [ 0.20081, 0.42418, 0.64755, 0.87092 ] 
+} 
+},
 "axis1": {
  "x": [
  0.19697,
@@ -357,18 +456,20 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.11738,
-0.39337,
-0.66937,
-0.94536 
+ 0.089123,
+0.31249,
+0.53586,
+0.75923,
+0.9826 
 ],
 "ylab": [
  "0",
 "5",
 "10",
-"15" 
+"15",
+"20" 
 ],
-"yrange": [ -2.1265,  15.99 ],
+"yrange": [ -1.995, 20.389 ],
 "yline": true,
 "yticks": true 
 },
@@ -388,7 +489,8 @@
  "0",
 "5",
 "10",
-"15" 
+"15",
+"20" 
 ],
 "legend": {
  "below0": {
@@ -397,16 +499,16 @@
 "title": "below0",
 "entries": [
  {
- "pathlinetype": "22",
-"pathcolour": "#000000",
-"pathsize":    0.5,
-"label": [ "TRUE" ] 
-},
-{
  "pathlinetype": "solid",
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "label": [ "FALSE" ] 
+},
+{
+ "pathlinetype": "22",
+"pathcolour": "#000000",
+"pathsize":    0.5,
+"label": [ "TRUE" ] 
 } 
 ] 
 },
@@ -416,32 +518,25 @@
 "title": "maxy",
 "entries": [
  {
- "pathalpha": 0.4944,
+ "pathalpha": 0.3816,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
 "label": [ "15" ] 
 },
 {
- "pathalpha": 0.3904,
+ "pathalpha": 0.2456,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "12" ] 
+"label": [ "10" ] 
 },
 {
- "pathalpha": 0.2864,
+ "pathalpha": 0.1104,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "9" ] 
-},
-{
- "pathalpha": 0.1824,
-"pathcolour": "#000000",
-"pathsize":    0.5,
-"pathlinetype":      1,
-"label": [ "6" ] 
+"label": [ "5" ] 
 } 
 ] 
 } 
@@ -480,6 +575,38 @@
 "geoms": [
  "geom4_line_p11" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.19697, 0.44949, 0.70202, 0.95455 ],
+"y": [ 0.20527, 0.45832, 0.71136, 0.9644 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.070707, 0.32323, 0.57576, 0.82828 ],
+"y": [ 0.078751, 0.33179, 0.58484, 0.83788 ] 
+} 
+},
 "axis1": {
  "x": [
  0.19697,
@@ -497,16 +624,18 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.069246,
-0.38982,
-0.7104 
+ 0.20527,
+0.45832,
+0.71136,
+0.9644 
 ],
 "ylab": [
  "0",
-"5",
-"10" 
+"4",
+"8",
+"12" 
 ],
-"yrange": [  -1.08, 14.517 ],
+"yrange": [ -3.2449, 12.563 ],
 "yline": true,
 "yticks": true 
 },
@@ -524,8 +653,9 @@
 ],
 "ylabs": [
  "0",
-"5",
-"10" 
+"4",
+"8",
+"12" 
 ],
 "legend": {
  "Line Size": {
@@ -534,28 +664,34 @@
 "title": "Line Size",
 "entries": [
  {
- "pathsize":  2.668,
+ "pathsize":   2.92,
 "pathcolour": "#000000",
 "pathlinetype":      1,
-"label": [ "1.50" ] 
+"label": [ "1.6" ] 
 },
 {
- "pathsize":  2.168,
+ "pathsize":   2.44,
 "pathcolour": "#000000",
 "pathlinetype":      1,
-"label": [ "1.25" ] 
+"label": [ "1.2" ] 
 },
 {
- "pathsize":  1.668,
+ "pathsize":   1.96,
 "pathcolour": "#000000",
 "pathlinetype":      1,
-"label": [ "1.00" ] 
+"label": [ "0.8" ] 
 },
 {
- "pathsize":  1.168,
+ "pathsize":   1.48,
 "pathcolour": "#000000",
 "pathlinetype":      1,
-"label": [ "0.75" ] 
+"label": [ "0.4" ] 
+},
+{
+ "pathsize":      1,
+"pathcolour": "#000000",
+"pathlinetype":      1,
+"label": [ "0.0" ] 
 } 
 ] 
 } 
@@ -594,6 +730,38 @@
 "geoms": [
  "geom5_line_p12" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.19697, 0.44949, 0.70202, 0.95455 ],
+"y": [ 0.15033, 0.3579, 0.56548, 0.77305, 0.98062 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.070707, 0.32323, 0.57576, 0.82828 ],
+"y": [ 0.046548, 0.25412, 0.46169, 0.66926, 0.87683 ] 
+} 
+},
 "axis1": {
  "x": [
  0.19697,
@@ -611,11 +779,11 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.15094,
-0.3586,
-0.56625,
-0.77391,
-0.98157 
+ 0.15033,
+0.3579,
+0.56548,
+0.77305,
+0.98062 
 ],
 "ylab": [
  "0",
@@ -624,7 +792,7 @@
 "15",
 "20" 
 ],
-"yrange": [ -3.6343, 20.444 ],
+"yrange": [ -3.6213, 20.467 ],
 "yline": true,
 "yticks": true 
 },
@@ -654,28 +822,22 @@
 "title": "maxy",
 "entries": [
  {
- "pathcolour": "#4692CD",
+ "pathcolour": "#448DC7",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "16" ] 
+"label": [ "15" ] 
 },
 {
- "pathcolour": "#346E9D",
+ "pathcolour": "#316693",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "12" ] 
+"label": [ "10" ] 
 },
 {
- "pathcolour": "#244C70",
+ "pathcolour": "#1F4263",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "8" ] 
-},
-{
- "pathcolour": "#142D46",
-"pathsize":    0.5,
-"pathlinetype":      1,
-"label": [ "4" ] 
+"label": [ "5" ] 
 } 
 ] 
 },
@@ -685,28 +847,28 @@
 "title": "miny",
 "entries": [
  {
- "pathalpha": 0.2676,
+ "pathalpha": 0.2872,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
 "label": [ "4" ] 
 },
 {
- "pathalpha": 0.2164,
+ "pathalpha":   0.23,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
 "label": [ "2" ] 
 },
 {
- "pathalpha": 0.1652,
+ "pathalpha": 0.1724,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
 "label": [ "0" ] 
 },
 {
- "pathalpha":  0.114,
+ "pathalpha": 0.1152,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,

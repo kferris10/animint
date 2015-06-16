@@ -66,16 +66,48 @@
 "geoms": [
  "geom1_tile_g15" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.32912, 0.67785 ],
+"y": [ 0.045455, 0.28469, 0.52392, 0.76316 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.15476, 0.50349, 0.85221 ],
+"y": [ 0.16507, 0.40431, 0.64354, 0.88278 ] 
+} 
+},
 "axis1": {
  "x": [
- 0.32865,
-0.66795 
+ 0.32912,
+0.67785 
 ],
 "xlab": [
  "1",
 "2" 
 ],
-"xrange": [ 0.031379, 2.9786 ],
+"xrange": [ 0.056207, 2.9238 ],
 "xline": true,
 "xticks": true,
 "y": [
@@ -117,18 +149,11 @@
 "title": "density",
 "entries": [
  {
- "polygonfill": "#55B1F7",
-"polygoncolour": "#55B1F7",
+ "polygonfill": "#21486A",
+"polygoncolour": "#21486A",
 "polygonsize":    0.1,
 "polygonlinetype":      1,
-"label": [ "8e-04" ] 
-},
-{
- "polygonfill": "#438CC5",
-"polygoncolour": "#438CC5",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "6e-04" ] 
+"label": [ "2e-04" ] 
 },
 {
  "polygonfill": "#326996",
@@ -138,11 +163,18 @@
 "label": [ "4e-04" ] 
 },
 {
- "polygonfill": "#21486A",
-"polygoncolour": "#21486A",
+ "polygonfill": "#438CC5",
+"polygoncolour": "#438CC5",
 "polygonsize":    0.1,
 "polygonlinetype":      1,
-"label": [ "2e-04" ] 
+"label": [ "6e-04" ] 
+},
+{
+ "polygonfill": "#55B1F7",
+"polygoncolour": "#55B1F7",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "8e-04" ] 
 } 
 ] 
 } 

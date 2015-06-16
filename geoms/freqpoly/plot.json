@@ -61,6 +61,37 @@
 "geoms": [
  "geom1_freqpoly_g20" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.073171, 0.19512, 0.31707, 0.43902, 0.56098, 0.68293, 0.80488, 0.92683 ],
+"y": [ 0.043838, 0.22343, 0.40302, 0.58261, 0.7622, 0.94179 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "y": [ 0.13363, 0.31323, 0.49282, 0.67241,  0.852 ] 
+} 
+},
 "axis1": {
  "x": [
  0.073171,
@@ -136,22 +167,10 @@
 "title": "cut",
 "entries": [
  {
- "pathcolour": "#E76BF3",
+ "pathcolour": "#F8766D",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "Ideal" ] 
-},
-{
- "pathcolour": "#00B0F6",
-"pathsize":    0.5,
-"pathlinetype":      1,
-"label": [ "Premium" ] 
-},
-{
- "pathcolour": "#00BF7D",
-"pathsize":    0.5,
-"pathlinetype":      1,
-"label": [ "Very Good" ] 
+"label": [ "Fair" ] 
 },
 {
  "pathcolour": "#A3A500",
@@ -160,10 +179,22 @@
 "label": [ "Good" ] 
 },
 {
- "pathcolour": "#F8766D",
+ "pathcolour": "#00BF7D",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "Fair" ] 
+"label": [ "Very Good" ] 
+},
+{
+ "pathcolour": "#00B0F6",
+"pathsize":    0.5,
+"pathlinetype":      1,
+"label": [ "Premium" ] 
+},
+{
+ "pathcolour": "#E76BF3",
+"pathsize":    0.5,
+"pathlinetype":      1,
+"label": [ "Ideal" ] 
 } 
 ] 
 } 

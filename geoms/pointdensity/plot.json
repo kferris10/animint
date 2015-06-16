@@ -60,23 +60,55 @@
 "geoms": [
  "geom1_point_g16" 
 ],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"panel_border": {
+ "fill": null,
+"colour": null,
+"size": null,
+"linetype": null 
+},
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.32323, 0.68398 ],
+"y": [ 0.027892, 0.27595, 0.52401, 0.77207 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.14286, 0.50361, 0.86436 ],
+"y": [ 0.15192, 0.39998, 0.64804, 0.8961 ] 
+} 
+},
 "axis1": {
  "x": [
- 0.32274,
-0.67375 
+ 0.32323,
+0.68398 
 ],
 "xlab": [
  "1",
 "2" 
 ],
-"xrange": [ 0.0805, 2.9295 ],
+"xrange": [  0.104,  2.876 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.0277,
-0.27847,
-0.52924,
-0.78001 
+ 0.027892,
+0.27595,
+0.52401,
+0.77207 
 ],
 "ylab": [
  "0",
@@ -84,7 +116,7 @@
 "10000",
 "15000" 
 ],
-"yrange": [ -552.3,  19386 ],
+"yrange": [ -562.2,  19594 ],
 "yline": true,
 "yticks": true 
 },
@@ -111,28 +143,28 @@
 "title": "Density",
 "entries": [
  {
- "pointalpha": 0.8794,
+ "pointalpha": 0.9262,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,
 "label": [ "4e-04" ] 
 },
 {
- "pointalpha": 0.6832,
+ "pointalpha": 0.7192,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,
 "label": [ "3e-04" ] 
 },
 {
- "pointalpha": 0.4888,
+ "pointalpha":  0.514,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,
 "label": [ "2e-04" ] 
 },
 {
- "pointalpha": 0.2944,
+ "pointalpha":  0.307,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,
