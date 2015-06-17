@@ -433,7 +433,7 @@
 "geom6_text_airtemp" 
 ],
 "panel_background": {
- "fill": null,
+ "fill": "transparent",
 "colour": null,
 "size": null,
 "linetype": null 

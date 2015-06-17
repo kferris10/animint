@@ -1307,7 +1307,7 @@
 "geom6_text_airtemp" 
 ],
 "panel_background": {
- "fill": null,
+ "fill": "transparent",
 "colour": null,
 "size": null,
 "linetype": null 
@@ -1438,7 +1438,7 @@
 "geom9_text_surftemp" 
 ],
 "panel_background": {
- "fill": null,
+ "fill": "transparent",
 "colour": null,
 "size": null,
 "linetype": null 
@@ -1575,7 +1575,7 @@
 "geom12_text_cloudslow" 
 ],
 "panel_background": {
- "fill": null,
+ "fill": "transparent",
 "colour": null,
 "size": null,
 "linetype": null 
@@ -1704,7 +1704,7 @@
 "geom15_text_cloudsmid" 
 ],
 "panel_background": {
- "fill": null,
+ "fill": "transparent",
 "colour": null,
 "size": null,
 "linetype": null 
@@ -1833,7 +1833,7 @@
 "geom18_text_cloudshigh" 
 ],
 "panel_background": {
- "fill": null,
+ "fill": "transparent",
 "colour": null,
 "size": null,
 "linetype": null 
@@ -1958,7 +1958,7 @@
 "geom21_text_ozone" 
 ],
 "panel_background": {
- "fill": null,
+ "fill": "transparent",
 "colour": null,
 "size": null,
 "linetype": null 
