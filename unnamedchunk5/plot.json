@@ -128,7 +128,8 @@
  "colour": "#F2F2F2",
 "size":   0.25,
 "linetype": "solid",
-"lineend": null 
+"lineend": null,
+"loc": [] 
 },
 "axis1": {
  "x": [

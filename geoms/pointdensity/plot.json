@@ -78,8 +78,8 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.32323, 0.68398 ],
-"y": [ 0.027892, 0.27595, 0.52401, 0.77207 ] 
+ "x": [ 0.30052, 0.62753, 0.95455 ],
+"y": [ 0.029094, 0.28003, 0.53097, 0.7819 ] 
 } 
 },
 "grid_minor": {
@@ -88,27 +88,29 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.14286, 0.50361, 0.86436 ],
-"y": [ 0.15192, 0.39998, 0.64804, 0.8961 ] 
+ "x": [ 0.13702, 0.46403, 0.79104 ],
+"y": [ 0.15456, 0.4055, 0.65643, 0.90737 ] 
 } 
 },
 "axis1": {
  "x": [
- 0.32323,
-0.68398 
+ 0.30052,
+0.62753,
+0.95455 
 ],
 "xlab": [
  "1",
-"2" 
+"2",
+"3" 
 ],
-"xrange": [  0.104,  2.876 ],
+"xrange": [  0.081,  3.139 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.027892,
-0.27595,
-0.52401,
-0.77207 
+ 0.029094,
+0.28003,
+0.53097,
+0.7819 
 ],
 "ylab": [
  "0",
@@ -116,7 +118,7 @@
 "10000",
 "15000" 
 ],
-"yrange": [ -562.2,  19594 ],
+"yrange": [ -579.7,  19346 ],
 "yline": true,
 "yticks": true 
 },
@@ -128,7 +130,8 @@
 "yangle":      0,
 "xlabs": [
  "1",
-"2" 
+"2",
+"3" 
 ],
 "ylabs": [
  "0",
@@ -143,28 +146,28 @@
 "title": "Density",
 "entries": [
  {
- "pointalpha": 0.9262,
+ "pointalpha": 0.9208,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,
 "label": [ "4e-04" ] 
 },
 {
- "pointalpha": 0.7192,
+ "pointalpha": 0.7156,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,
 "label": [ "3e-04" ] 
 },
 {
- "pointalpha":  0.514,
+ "pointalpha": 0.5104,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,
 "label": [ "2e-04" ] 
 },
 {
- "pointalpha":  0.307,
+ "pointalpha": 0.3052,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,
