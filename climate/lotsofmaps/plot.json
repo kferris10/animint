@@ -1307,7 +1307,7 @@
 "geom6_text_airtemp" 
 ],
 "panel_background": {
- "fill": "#E5E5E5",
+ "fill": null,
 "colour": null,
 "size": null,
 "linetype": null 
@@ -1319,20 +1319,16 @@
 "linetype": null 
 },
 "grid_major": {
- "colour": "#FFFFFF",
-"size":      1,
+ "size":      1,
 "linetype": "solid",
-"lineend": null,
 "loc": {
  "x": [ 0.0063519, 0.29408, 0.5818, 0.86953 ],
 "y": [ 0.1031, 0.39173, 0.68035, 0.96898 ] 
 } 
 },
 "grid_minor": {
- "colour": "#F2F2F2",
-"size":   0.25,
+ "size":      1,
 "linetype": "solid",
-"lineend": null,
 "loc": {
  "x": [ 0.15021, 0.43794, 0.72566 ],
 "y": [ 0.24742, 0.53604, 0.82466 ] 
@@ -1442,7 +1438,7 @@
 "geom9_text_surftemp" 
 ],
 "panel_background": {
- "fill": "#E5E5E5",
+ "fill": null,
 "colour": null,
 "size": null,
 "linetype": null 
@@ -1454,20 +1450,16 @@
 "linetype": null 
 },
 "grid_major": {
- "colour": "#FFFFFF",
-"size":      1,
+ "size":      1,
 "linetype": "solid",
-"lineend": null,
 "loc": {
  "x": [ 0.0063519, 0.29408, 0.5818, 0.86953 ],
 "y": [ 0.1031, 0.39173, 0.68035, 0.96898 ] 
 } 
 },
 "grid_minor": {
- "colour": "#F2F2F2",
-"size":   0.25,
+ "size":      1,
 "linetype": "solid",
-"lineend": null,
 "loc": {
  "x": [ 0.15021, 0.43794, 0.72566 ],
 "y": [ 0.24742, 0.53604, 0.82466 ] 
@@ -1583,7 +1575,7 @@
 "geom12_text_cloudslow" 
 ],
 "panel_background": {
- "fill": "#E5E5E5",
+ "fill": null,
 "colour": null,
 "size": null,
 "linetype": null 
@@ -1595,20 +1587,16 @@
 "linetype": null 
 },
 "grid_major": {
- "colour": "#FFFFFF",
-"size":      1,
+ "size":      1,
 "linetype": "solid",
-"lineend": null,
 "loc": {
  "x": [ 0.0063519, 0.29408, 0.5818, 0.86953 ],
 "y": [ 0.1031, 0.39173, 0.68035, 0.96898 ] 
 } 
 },
 "grid_minor": {
- "colour": "#F2F2F2",
-"size":   0.25,
+ "size":      1,
 "linetype": "solid",
-"lineend": null,
 "loc": {
  "x": [ 0.15021, 0.43794, 0.72566 ],
 "y": [ 0.24742, 0.53604, 0.82466 ] 
@@ -1716,7 +1704,7 @@
 "geom15_text_cloudsmid" 
 ],
 "panel_background": {
- "fill": "#E5E5E5",
+ "fill": null,
 "colour": null,
 "size": null,
 "linetype": null 
@@ -1728,20 +1716,16 @@
 "linetype": null 
 },
 "grid_major": {
- "colour": "#FFFFFF",
-"size":      1,
+ "size":      1,
 "linetype": "solid",
-"lineend": null,
 "loc": {
  "x": [ 0.0063519, 0.29408, 0.5818, 0.86953 ],
 "y": [ 0.1031, 0.39173, 0.68035, 0.96898 ] 
 } 
 },
 "grid_minor": {
- "colour": "#F2F2F2",
-"size":   0.25,
+ "size":      1,
 "linetype": "solid",
-"lineend": null,
 "loc": {
  "x": [ 0.15021, 0.43794, 0.72566 ],
 "y": [ 0.24742, 0.53604, 0.82466 ] 
@@ -1849,7 +1833,7 @@
 "geom18_text_cloudshigh" 
 ],
 "panel_background": {
- "fill": "#E5E5E5",
+ "fill": null,
 "colour": null,
 "size": null,
 "linetype": null 
@@ -1861,20 +1845,16 @@
 "linetype": null 
 },
 "grid_major": {
- "colour": "#FFFFFF",
-"size":      1,
+ "size":      1,
 "linetype": "solid",
-"lineend": null,
 "loc": {
  "x": [ 0.0063519, 0.29408, 0.5818, 0.86953 ],
 "y": [ 0.1031, 0.39173, 0.68035, 0.96898 ] 
 } 
 },
 "grid_minor": {
- "colour": "#F2F2F2",
-"size":   0.25,
+ "size":      1,
 "linetype": "solid",
-"lineend": null,
 "loc": {
  "x": [ 0.15021, 0.43794, 0.72566 ],
 "y": [ 0.24742, 0.53604, 0.82466 ] 
@@ -1978,7 +1958,7 @@
 "geom21_text_ozone" 
 ],
 "panel_background": {
- "fill": "#E5E5E5",
+ "fill": null,
 "colour": null,
 "size": null,
 "linetype": null 
@@ -1990,20 +1970,16 @@
 "linetype": null 
 },
 "grid_major": {
- "colour": "#FFFFFF",
-"size":      1,
+ "size":      1,
 "linetype": "solid",
-"lineend": null,
 "loc": {
  "x": [ 0.0063519, 0.29408, 0.5818, 0.86953 ],
 "y": [ 0.1031, 0.39173, 0.68035, 0.96898 ] 
 } 
 },
 "grid_minor": {
- "colour": "#F2F2F2",
-"size":   0.25,
+ "size":      1,
 "linetype": "solid",
-"lineend": null,
 "loc": {
  "x": [ 0.15021, 0.43794, 0.72566 ],
 "y": [ 0.24742, 0.53604, 0.82466 ] 
