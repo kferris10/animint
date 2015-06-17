@@ -83,8 +83,8 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.045455, 0.2619, 0.47835, 0.69481, 0.91126 ],
-"y": [ 0.045455, 0.30519, 0.56494, 0.82468 ] 
+ "x": [ 0.072193, 0.33957, 0.60695, 0.87433 ],
+"y": [ 0.045455, 0.29339, 0.54132, 0.78926 ] 
 } 
 },
 "grid_minor": {
@@ -93,41 +93,39 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.15368, 0.37013, 0.58658, 0.80303 ],
-"y": [ 0.17532, 0.43506, 0.69481, 0.95455 ] 
+ "x": [ 0.20588, 0.47326, 0.74064 ],
+"y": [ 0.16942, 0.41736, 0.66529, 0.91322 ] 
 } 
 },
 "axis1": {
  "x": [
- 0.045455,
-0.2619,
-0.47835,
-0.69481,
-0.91126 
+ 0.072193,
+0.33957,
+0.60695,
+0.87433 
 ],
 "xlab": [
  "0",
-"5",
 "10",
-"15",
-"20" 
+"20",
+"30" 
 ],
-"xrange": [  -1.05,  22.05 ],
+"xrange": [   -2.7,   34.7 ],
 "xline": true,
 "xticks": true,
 "y": [
  0.045455,
-0.30519,
-0.56494,
-0.82468 
+0.29339,
+0.54132,
+0.78926 
 ],
 "ylab": [
  "0",
-"2",
-"4",
-"6" 
+"3",
+"6",
+"9" 
 ],
-"yrange": [  -0.35,   7.35 ],
+"yrange": [  -0.55,  11.55 ],
 "yline": true,
 "yticks": true 
 },
@@ -139,16 +137,15 @@
 "yangle":      0,
 "xlabs": [
  "0",
-"5",
 "10",
-"15",
-"20" 
+"20",
+"30" 
 ],
 "ylabs": [
  "0",
-"2",
-"4",
-"6" 
+"3",
+"6",
+"9" 
 ],
 "legend": {
  "count": {
@@ -157,32 +154,39 @@
 "title": "count",
 "entries": [
  {
- "polygonfill": "#4B9CDB",
+ "polygonfill": "#4FA3E5",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
 "polygonweight":      1,
-"label": [ "6" ] 
+"label": [ "10.0" ] 
 },
 {
- "polygonfill": "#3773A5",
+ "polygonfill": "#3F83B9",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
 "polygonweight":      1,
-"label": [ "4" ] 
+"label": [ "7.5" ] 
 },
 {
- "polygonfill": "#244D72",
+ "polygonfill": "#2F638F",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
 "polygonweight":      1,
-"label": [ "2" ] 
+"label": [ "5.0" ] 
+},
+{
+ "polygonfill": "#204668",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"polygonweight":      1,
+"label": [ "2.5" ] 
 },
 {
  "polygonfill": "#132B43",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
 "polygonweight":      1,
-"label": [ "0" ] 
+"label": [ "0.0" ] 
 } 
 ] 
 } 

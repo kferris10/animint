@@ -341,9 +341,9 @@ plainmap <- function(p){
   geom_text(data = dates, 
             aes(x = -86, y = 39, label = textdate, showSelected = time2))+ 
   theme(axis.line=element_blank(), axis.text=element_blank(), 
-        axis.ticks=element_blank(), axis.title=element_blank(), 
-        panel.background = element_rect(fill = "transparent"), 
-        panel.grid.major=element_blank(), panel.grid.minor=element_blank())
+          axis.ticks=element_blank(), axis.title=element_blank(), 
+          panel.grid.major=element_blank(), panel.grid.minor=element_blank(), 
+          panel.background = element_rect(fill = "white"))
 }
 
 # tiles with temperature data to serve as the background for the plot.
@@ -359,7 +359,7 @@ temptiles <- ggplot() +
 airtemp <- plainmap(temptiles)
 ```
 
-The `theme()` statement removes the axis, axis labels, and axis title from the plot, since maps are fairly self-explanatory and longitude and latitude values don't provide much additional information. The `geom_text()` statement is used where one would typically use a `make_text()` statement, but in this case, we want a format that is not easily derived from the `showSelected` variable. 
+The `theme()` statement removes the axis, axis labels, axis title, and grid lines since maps are fairly self-explanatory and longitude and latitude values don't provide much additional information. The `panel.background` statement sets a white background.  The `geom_text()` statement is used where one would typically use a `make_text()` statement, but in this case, we want a format that is not easily derived from the `showSelected` variable. 
 
 Now that we have both plot types that we need for the selectors we've chosen, we can add animation and output to animint:
 

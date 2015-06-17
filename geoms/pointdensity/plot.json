@@ -78,8 +78,8 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.29635, 0.62219, 0.94803 ],
-"y": [ 0.027546, 0.27559, 0.52364, 0.77169 ] 
+ "x": [ 0.29725, 0.62426, 0.95128 ],
+"y": [ 0.028675, 0.27911, 0.52955, 0.77999 ] 
 } 
 },
 "grid_minor": {
@@ -88,29 +88,29 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.13343, 0.45927, 0.78511 ],
-"y": [ 0.15157, 0.39962, 0.64766, 0.89571 ] 
+ "x": [ 0.13375, 0.46076, 0.78777 ],
+"y": [ 0.15389, 0.40433, 0.65477, 0.90521 ] 
 } 
 },
 "axis1": {
  "x": [
- 0.29635,
-0.62219,
-0.94803 
+ 0.29725,
+0.62426,
+0.95128 
 ],
 "xlab": [
  "1",
 "2",
 "3" 
 ],
-"xrange": [ 0.0905, 3.1595 ],
+"xrange": [  0.091,  3.149 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.027546,
-0.27559,
-0.52364,
-0.77169 
+ 0.028675,
+0.27911,
+0.52955,
+0.77999 
 ],
 "ylab": [
  "0",
@@ -118,7 +118,7 @@
 "10000",
 "15000" 
 ],
-"yrange": [ -555.25,  19602 ],
+"yrange": [ -572.5,  19393 ],
 "yline": true,
 "yticks": true 
 },
@@ -146,28 +146,28 @@
 "title": "Density",
 "entries": [
  {
- "pointalpha": 0.8344,
+ "pointalpha":   0.91,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,
 "label": [ "4e-04" ] 
 },
 {
- "pointalpha": 0.6508,
+ "pointalpha": 0.7066,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,
 "label": [ "3e-04" ] 
 },
 {
- "pointalpha": 0.4672,
+ "pointalpha":  0.505,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,
 "label": [ "2e-04" ] 
 },
 {
- "pointalpha": 0.2836,
+ "pointalpha": 0.3016,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,

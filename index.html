@@ -377,9 +377,9 @@ plainmap &lt;- function(p){
   geom_text(data = dates, 
             aes(x = -86, y = 39, label = textdate, showSelected = time2))+ 
   theme(axis.line=element_blank(), axis.text=element_blank(), 
-        axis.ticks=element_blank(), axis.title=element_blank(), 
-        panel.background = element_rect(fill = &quot;transparent&quot;), 
-        panel.grid.major=element_blank(), panel.grid.minor=element_blank())
+          axis.ticks=element_blank(), axis.title=element_blank(), 
+          panel.grid.major=element_blank(), panel.grid.minor=element_blank(), 
+          panel.background = element_rect(fill = &quot;white&quot;))
 }
 
 # tiles with temperature data to serve as the background for the plot.
@@ -393,7 +393,7 @@ temptiles &lt;- ggplot() +
   ggtitle(&quot;Temperature Deviation from Monthly Norm&quot;)
 
 airtemp &lt;- plainmap(temptiles)</code></pre>
-<p>The <code>theme()</code> statement removes the axis, axis labels, and axis title from the plot, since maps are fairly self-explanatory and longitude and latitude values don’t provide much additional information. The <code>geom_text()</code> statement is used where one would typically use a <code>make_text()</code> statement, but in this case, we want a format that is not easily derived from the <code>showSelected</code> variable.</p>
+<p>The <code>theme()</code> statement removes the axis, axis labels, axis title, and grid lines since maps are fairly self-explanatory and longitude and latitude values don’t provide much additional information. The <code>panel.background</code> statement sets a white background. The <code>geom_text()</code> statement is used where one would typically use a <code>make_text()</code> statement, but in this case, we want a format that is not easily derived from the <code>showSelected</code> variable.</p>
 <p>Now that we have both plot types that we need for the selectors we’ve chosen, we can add animation and output to animint:</p>
 <pre class="r"><code>animint2dir(list(timeseriestemp = tempseq, 
                 airtemp = airtemp,

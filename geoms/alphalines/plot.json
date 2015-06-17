@@ -186,7 +186,7 @@
 "lineend": null,
 "loc": {
  "x": [ 0.19697, 0.44949, 0.70202, 0.95455 ],
-"y": [ 0.11907, 0.32432, 0.52957, 0.73482, 0.94006 ] 
+"y": [ 0.16168, 0.39194, 0.62219, 0.85245 ] 
 } 
 },
 "grid_minor": {
@@ -196,7 +196,7 @@
 "lineend": null,
 "loc": {
  "x": [ 0.070707, 0.32323, 0.57576, 0.82828 ],
-"y": [ 0.016451, 0.2217, 0.42695, 0.63219, 0.83744 ] 
+"y": [ 0.046557, 0.27681, 0.50707, 0.73732, 0.96758 ] 
 } 
 },
 "axis1": {
@@ -216,20 +216,18 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.11907,
-0.32432,
-0.52957,
-0.73482,
-0.94006 
+ 0.16168,
+0.39194,
+0.62219,
+0.85245 
 ],
 "ylab": [
  "0",
 "5",
 "10",
-"15",
-"20" 
+"15" 
 ],
-"yrange": [ -2.9008,  21.46 ],
+"yrange": [ -3.511, 18.204 ],
 "yline": true,
 "yticks": true 
 },
@@ -249,8 +247,7 @@
  "0",
 "5",
 "10",
-"15",
-"20" 
+"15" 
 ],
 "legend": {},
 "title": "Constant alpha",
@@ -306,7 +303,7 @@
 "lineend": null,
 "loc": {
  "x": [ 0.19697, 0.44949, 0.70202, 0.95455 ],
-"y": [ 0.13034, 0.39846, 0.66658, 0.9347 ] 
+"y": [ 0.088604, 0.35792, 0.62725, 0.89657 ] 
 } 
 },
 "grid_minor": {
@@ -316,7 +313,7 @@
 "lineend": null,
 "loc": {
  "x": [ 0.070707, 0.32323, 0.57576, 0.82828 ],
-"y": [ 0.2644, 0.53252, 0.80064 ] 
+"y": [ 0.22326, 0.49258, 0.76191 ] 
 } 
 },
 "axis1": {
@@ -336,10 +333,10 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.13034,
-0.39846,
-0.66658,
-0.9347 
+ 0.088604,
+0.35792,
+0.62725,
+0.89657 
 ],
 "ylab": [
  "0",
@@ -347,7 +344,7 @@
 "10",
 "15" 
 ],
-"yrange": [ -2.4306, 16.218 ],
+"yrange": [ -1.645,  16.92 ],
 "yline": true,
 "yticks": true 
 },
@@ -423,7 +420,7 @@
 "lineend": null,
 "loc": {
  "x": [ 0.19697, 0.44949, 0.70202, 0.95455 ],
-"y": [ 0.13034, 0.39846, 0.66658, 0.9347 ] 
+"y": [ 0.088604, 0.35792, 0.62725, 0.89657 ] 
 } 
 },
 "grid_minor": {
@@ -433,7 +430,7 @@
 "lineend": null,
 "loc": {
  "x": [ 0.070707, 0.32323, 0.57576, 0.82828 ],
-"y": [ 0.2644, 0.53252, 0.80064 ] 
+"y": [ 0.22326, 0.49258, 0.76191 ] 
 } 
 },
 "axis1": {
@@ -453,10 +450,10 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.13034,
-0.39846,
-0.66658,
-0.9347 
+ 0.088604,
+0.35792,
+0.62725,
+0.89657 
 ],
 "ylab": [
  "0",
@@ -464,7 +461,7 @@
 "10",
 "15" 
 ],
-"yrange": [ -2.4306, 16.218 ],
+"yrange": [ -1.645,  16.92 ],
 "yline": true,
 "yticks": true 
 },
@@ -487,7 +484,56 @@
 "15" 
 ],
 "legend": {
- "below0": {
+ "maxy": {
+ "guide": "legend",
+"geoms": "path",
+"title": "maxy",
+"entries": [
+ {
+ "pathalpha": 0.4976,
+"pathcolour": "#000000",
+"pathsize":    0.5,
+"pathlinetype":      1,
+"label": [ "16" ] 
+},
+{
+ "pathalpha": 0.4304,
+"pathcolour": "#000000",
+"pathsize":    0.5,
+"pathlinetype":      1,
+"label": [ "14" ] 
+},
+{
+ "pathalpha": 0.3632,
+"pathcolour": "#000000",
+"pathsize":    0.5,
+"pathlinetype":      1,
+"label": [ "12" ] 
+},
+{
+ "pathalpha": 0.2952,
+"pathcolour": "#000000",
+"pathsize":    0.5,
+"pathlinetype":      1,
+"label": [ "10" ] 
+},
+{
+ "pathalpha":  0.228,
+"pathcolour": "#000000",
+"pathsize":    0.5,
+"pathlinetype":      1,
+"label": [ "8" ] 
+},
+{
+ "pathalpha": 0.1608,
+"pathcolour": "#000000",
+"pathsize":    0.5,
+"pathlinetype":      1,
+"label": [ "6" ] 
+} 
+] 
+},
+"below0": {
  "guide": "legend",
 "geoms": "path",
 "title": "below0",
@@ -503,48 +549,6 @@
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "label": [ "TRUE" ] 
-} 
-] 
-},
-"maxy": {
- "guide": "legend",
-"geoms": "path",
-"title": "maxy",
-"entries": [
- {
- "pathalpha": 0.4864,
-"pathcolour": "#000000",
-"pathsize":    0.5,
-"pathlinetype":      1,
-"label": [ "15.0" ] 
-},
-{
- "pathalpha":  0.396,
-"pathcolour": "#000000",
-"pathsize":    0.5,
-"pathlinetype":      1,
-"label": [ "12.5" ] 
-},
-{
- "pathalpha": 0.3048,
-"pathcolour": "#000000",
-"pathsize":    0.5,
-"pathlinetype":      1,
-"label": [ "10.0" ] 
-},
-{
- "pathalpha": 0.2144,
-"pathcolour": "#000000",
-"pathsize":    0.5,
-"pathlinetype":      1,
-"label": [ "7.5" ] 
-},
-{
- "pathalpha": 0.1232,
-"pathcolour": "#000000",
-"pathsize":    0.5,
-"pathlinetype":      1,
-"label": [ "5.0" ] 
 } 
 ] 
 } 
@@ -602,7 +606,7 @@
 "lineend": null,
 "loc": {
  "x": [ 0.19697, 0.44949, 0.70202, 0.95455 ],
-"y": [ 0.1252, 0.42527, 0.72533 ] 
+"y": [ 0.10474, 0.40775, 0.71077 ] 
 } 
 },
 "grid_minor": {
@@ -612,7 +616,7 @@
 "lineend": null,
 "loc": {
  "x": [ 0.070707, 0.32323, 0.57576, 0.82828 ],
-"y": [ 0.27523, 0.5753, 0.87537 ] 
+"y": [ 0.25625, 0.55926, 0.86228 ] 
 } 
 },
 "axis1": {
@@ -632,16 +636,16 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.1252,
-0.42527,
-0.72533 
+ 0.10474,
+0.40775,
+0.71077 
 ],
 "ylab": [
  "0",
 "5",
 "10" 
 ],
-"yrange": [ -2.0862, 14.577 ],
+"yrange": [ -1.7283, 14.773 ],
 "yline": true,
 "yticks": true 
 },
@@ -669,28 +673,22 @@
 "title": "Line Size",
 "entries": [
  {
- "pathsize":    2.9,
-"pathcolour": "#000000",
-"pathlinetype":      1,
-"label": [ "1.6" ] 
-},
-{
- "pathsize":    2.3,
+ "pathsize":    2.6,
 "pathcolour": "#000000",
 "pathlinetype":      1,
 "label": [ "1.2" ] 
 },
 {
- "pathsize":    1.7,
+ "pathsize":      2,
+"pathcolour": "#000000",
+"pathlinetype":      1,
+"label": [ "1.0" ] 
+},
+{
+ "pathsize":    1.4,
 "pathcolour": "#000000",
 "pathlinetype":      1,
 "label": [ "0.8" ] 
-},
-{
- "pathsize":    1.1,
-"pathcolour": "#000000",
-"pathlinetype":      1,
-"label": [ "0.4" ] 
 } 
 ] 
 } 
@@ -748,7 +746,7 @@
 "lineend": null,
 "loc": {
  "x": [ 0.19697, 0.44949, 0.70202, 0.95455 ],
-"y": [ 0.11907, 0.32432, 0.52957, 0.73482, 0.94006 ] 
+"y": [ 0.16168, 0.39194, 0.62219, 0.85245 ] 
 } 
 },
 "grid_minor": {
@@ -758,7 +756,7 @@
 "lineend": null,
 "loc": {
  "x": [ 0.070707, 0.32323, 0.57576, 0.82828 ],
-"y": [ 0.016451, 0.2217, 0.42695, 0.63219, 0.83744 ] 
+"y": [ 0.046557, 0.27681, 0.50707, 0.73732, 0.96758 ] 
 } 
 },
 "axis1": {
@@ -778,20 +776,18 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.11907,
-0.32432,
-0.52957,
-0.73482,
-0.94006 
+ 0.16168,
+0.39194,
+0.62219,
+0.85245 
 ],
 "ylab": [
  "0",
 "5",
 "10",
-"15",
-"20" 
+"15" 
 ],
-"yrange": [ -2.9008,  21.46 ],
+"yrange": [ -3.511, 18.204 ],
 "yline": true,
 "yticks": true 
 },
@@ -811,8 +807,7 @@
  "0",
 "5",
 "10",
-"15",
-"20" 
+"15" 
 ],
 "legend": {
  "maxy": {
@@ -821,28 +816,28 @@
 "title": "maxy",
 "entries": [
  {
- "pathcolour": "#54AEF3",
+ "pathcolour": "#50A5E7",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "20" ] 
+"label": [ "16" ] 
 },
 {
- "pathcolour": "#4188C0",
+ "pathcolour": "#3D7FB4",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "15" ] 
+"label": [ "12" ] 
 },
 {
- "pathcolour": "#2F6490",
+ "pathcolour": "#2B5B83",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "10" ] 
+"label": [ "8" ] 
 },
 {
- "pathcolour": "#1E4262",
+ "pathcolour": "#1A3956",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "5" ] 
+"label": [ "4" ] 
 } 
 ] 
 },
@@ -859,18 +854,25 @@
 "label": [ "4" ] 
 },
 {
- "pathalpha": 0.2232,
+ "pathalpha": 0.2308,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
 "label": [ "2" ] 
 },
 {
- "pathalpha": 0.1584,
+ "pathalpha": 0.1728,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
 "label": [ "0" ] 
+},
+{
+ "pathalpha": 0.1152,
+"pathcolour": "#000000",
+"pathsize":    0.5,
+"pathlinetype":      1,
+"label": [ "-2" ] 
 } 
 ] 
 } 
