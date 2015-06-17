@@ -83,8 +83,8 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.072193, 0.33957, 0.60695, 0.87433 ],
-"y": [ 0.045455, 0.29339, 0.54132, 0.78926 ] 
+ "x": [ 0.09596, 0.34848, 0.60101, 0.85354 ],
+"y": [ 0.045455, 0.29798, 0.55051, 0.80303 ] 
 } 
 },
 "grid_minor": {
@@ -93,39 +93,39 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.20588, 0.47326, 0.74064 ],
-"y": [ 0.16942, 0.41736, 0.66529, 0.91322 ] 
+ "x": [ 0.22222, 0.47475, 0.72727, 0.9798 ],
+"y": [ 0.17172, 0.42424, 0.67677, 0.92929 ] 
 } 
 },
 "axis1": {
  "x": [
- 0.072193,
-0.33957,
-0.60695,
-0.87433 
+ 0.09596,
+0.34848,
+0.60101,
+0.85354 
 ],
 "xlab": [
  "0",
+"5",
 "10",
-"20",
-"30" 
+"15" 
 ],
-"xrange": [   -2.7,   34.7 ],
+"xrange": [   -1.9,   17.9 ],
 "xline": true,
 "xticks": true,
 "y": [
  0.045455,
-0.29339,
-0.54132,
-0.78926 
+0.29798,
+0.55051,
+0.80303 
 ],
 "ylab": [
- "0",
-"3",
-"6",
-"9" 
+ "0.0",
+"2.5",
+"5.0",
+"7.5" 
 ],
-"yrange": [  -0.55,  11.55 ],
+"yrange": [  -0.45,   9.45 ],
 "yline": true,
 "yticks": true 
 },
@@ -137,15 +137,15 @@
 "yangle":      0,
 "xlabs": [
  "0",
+"5",
 "10",
-"20",
-"30" 
+"15" 
 ],
 "ylabs": [
- "0",
-"3",
-"6",
-"9" 
+ "0.0",
+"2.5",
+"5.0",
+"7.5" 
 ],
 "legend": {
  "count": {
@@ -154,28 +154,21 @@
 "title": "count",
 "entries": [
  {
- "polygonfill": "#4FA3E5",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonweight":      1,
-"label": [ "10.0" ] 
-},
-{
- "polygonfill": "#3F83B9",
+ "polygonfill": "#4998D6",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
 "polygonweight":      1,
 "label": [ "7.5" ] 
 },
 {
- "polygonfill": "#2F638F",
+ "polygonfill": "#3671A2",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
 "polygonweight":      1,
 "label": [ "5.0" ] 
 },
 {
- "polygonfill": "#204668",
+ "polygonfill": "#244C70",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
 "polygonweight":      1,

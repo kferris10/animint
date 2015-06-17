@@ -967,7 +967,8 @@ g13 &lt;- ggplot() +
   geom_contour(data = geyser, 
                aes(x = duration, y = waiting), 
                colour = &quot;blue&quot;, size = .5, stat = &quot;density2d&quot;) + 
-  xlim(0.5, 6) + scale_y_log10(limits = c(40,110)) +
+  xlim(0.5, 6) + 
+  scale_y_log10(limits = c(40,110)) +
   ggtitle(&quot;geom_contour 2d density&quot;)
 g13</code></pre>
 <p><img src="index_files/figure-html/scaleycontour-1.png" title="" alt="" width="576" style="display: block; margin: auto;" /></p>
@@ -985,7 +986,7 @@ g13</code></pre>
   scale_fill_continuous(&quot;Density Level&quot;, low = &quot;#56B1F7&quot;, high = &quot;#132B43&quot;) + 
   guides(colour = guide_legend(override.aes = list(alpha = 1)), 
          fill = guide_legend(override.aes = list(alpha = 1))) + 
-  scale_y_continuous(limits = c(40,110), trans = &quot;log10&quot;) +
+#   scale_y_continuous(limits = c(40,110), trans = &quot;log10&quot;) +
   scale_x_continuous(limits = c(.5, 6)) +
   ggtitle(&quot;geom_density2d polygon&quot;)
 g14</code></pre>

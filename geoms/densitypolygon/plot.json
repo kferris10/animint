@@ -43,8 +43,8 @@
 },
 "subset_order": [],
 "types": {
- "y": "numeric",
-"x": "numeric",
+ "x": "numeric",
+"y": "numeric",
 "PANEL": "integer" 
 },
 "PANEL": 1,
@@ -104,7 +104,7 @@
 "lineend": null,
 "loc": {
  "x": [ 0.29339, 0.62397, 0.95455 ],
-"y": 0.86889 
+"y": [ 0.0034965, 0.28322, 0.56294, 0.84266 ] 
 } 
 },
 "grid_minor": {
@@ -114,7 +114,7 @@
 "lineend": null,
 "loc": {
  "x": [ 0.1281, 0.45868, 0.78926 ],
-"y":  
+"y": [ 0.14336, 0.42308, 0.7028, 0.98252 ] 
 } 
 },
 "axis1": {
@@ -132,12 +132,18 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.86889 
+ 0.0034965,
+0.28322,
+0.56294,
+0.84266 
 ],
 "ylab": [
- "100" 
+ "40",
+"60",
+"80",
+"100" 
 ],
-"yrange": [ 1.5801, 2.0634 ],
+"yrange": [  39.75, 111.25 ],
 "yline": true,
 "yticks": true 
 },
@@ -153,7 +159,10 @@
 "6" 
 ],
 "ylabs": [
- "100" 
+ "40",
+"60",
+"80",
+"100" 
 ],
 "legend": {
  "Density Level": {
@@ -162,44 +171,20 @@
 "title": "Density Level",
 "entries": [
  {
- "polygonfill": "#152F49",
+ "polygonfill": "#27547A",
 "polygoncolour": "#FFFFFF",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
 "polygonalpha":      1,
-"label": [ "2.5" ] 
+"label": [ "0.010" ] 
 },
 {
- "polygonfill": "#22496B",
+ "polygonfill": "#448CC6",
 "polygoncolour": "#FFFFFF",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
 "polygonalpha":      1,
-"label": [ "2.0" ] 
-},
-{
- "polygonfill": "#2F6490",
-"polygoncolour": "#FFFFFF",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonalpha":      1,
-"label": [ "1.5" ] 
-},
-{
- "polygonfill": "#3E80B6",
-"polygoncolour": "#FFFFFF",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonalpha":      1,
-"label": [ "1.0" ] 
-},
-{
- "polygonfill": "#4C9EDE",
-"polygoncolour": "#FFFFFF",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonalpha":      1,
-"label": [ "0.5" ] 
+"label": [ "0.005" ] 
 } 
 ] 
 } 
