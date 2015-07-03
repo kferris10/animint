@@ -1193,24 +1193,28 @@
 ],
 "panel_background": {
  "fill": "#E5E5E5",
-"colour": null,
+"colour": "transparent",
 "size": null,
-"linetype": null 
+"linetype": "solid" 
 },
-"panel_border": {
- "fill": null,
-"colour": null,
-"size": null,
-"linetype": null 
-},
+"panel_border": [],
 "grid_major": {
  "colour": "#FFFFFF",
 "size":      1,
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.20344, 0.50653, 0.80962 ],
-"y": [ 0.15394, 0.3709, 0.58787, 0.80484 ] 
+ "x": [
+ 0.20344,
+0.50653,
+0.80962 
+],
+"y": [
+ 0.15394,
+0.3709,
+0.58787,
+0.80484 
+] 
 } 
 },
 "grid_minor": {
@@ -1219,8 +1223,19 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.05189, 0.35498, 0.65808, 0.96117 ],
-"y": [ 0.045455, 0.26242, 0.47939, 0.69635, 0.91332 ] 
+ "x": [
+ 0.05189,
+0.35498,
+0.65808,
+0.96117 
+],
+"y": [
+ 0.045455,
+0.26242,
+0.47939,
+0.69635,
+0.91332 
+] 
 } 
 },
 "axis1": {
@@ -1308,30 +1323,39 @@
 ],
 "panel_background": {
  "fill": "#FFFFFF",
-"colour": null,
+"colour": "transparent",
 "size": null,
-"linetype": null 
+"linetype": "solid" 
 },
-"panel_border": {
- "fill": null,
-"colour": null,
-"size": null,
-"linetype": null 
-},
+"panel_border": [],
 "grid_major": {
- "size":      1,
-"linetype": "solid",
-"loc": {
- "x": [ 0.0063519, 0.29408, 0.5818, 0.86953 ],
-"y": [ 0.1031, 0.39173, 0.68035, 0.96898 ] 
+ "loc": {
+ "x": [
+ 0.0063519,
+0.29408,
+0.5818,
+0.86953 
+],
+"y": [
+ 0.1031,
+0.39173,
+0.68035,
+0.96898 
+] 
 } 
 },
 "grid_minor": {
- "size":      1,
-"linetype": "solid",
-"loc": {
- "x": [ 0.15021, 0.43794, 0.72566 ],
-"y": [ 0.24742, 0.53604, 0.82466 ] 
+ "loc": {
+ "x": [
+ 0.15021,
+0.43794,
+0.72566 
+],
+"y": [
+ 0.24742,
+0.53604,
+0.82466 
+] 
 } 
 },
 "axis1": {
@@ -1439,30 +1463,39 @@
 ],
 "panel_background": {
  "fill": "#FFFFFF",
-"colour": null,
+"colour": "transparent",
 "size": null,
-"linetype": null 
+"linetype": "solid" 
 },
-"panel_border": {
- "fill": null,
-"colour": null,
-"size": null,
-"linetype": null 
-},
+"panel_border": [],
 "grid_major": {
- "size":      1,
-"linetype": "solid",
-"loc": {
- "x": [ 0.0063519, 0.29408, 0.5818, 0.86953 ],
-"y": [ 0.1031, 0.39173, 0.68035, 0.96898 ] 
+ "loc": {
+ "x": [
+ 0.0063519,
+0.29408,
+0.5818,
+0.86953 
+],
+"y": [
+ 0.1031,
+0.39173,
+0.68035,
+0.96898 
+] 
 } 
 },
 "grid_minor": {
- "size":      1,
-"linetype": "solid",
-"loc": {
- "x": [ 0.15021, 0.43794, 0.72566 ],
-"y": [ 0.24742, 0.53604, 0.82466 ] 
+ "loc": {
+ "x": [
+ 0.15021,
+0.43794,
+0.72566 
+],
+"y": [
+ 0.24742,
+0.53604,
+0.82466 
+] 
 } 
 },
 "axis1": {
@@ -1576,30 +1609,39 @@
 ],
 "panel_background": {
  "fill": "#FFFFFF",
-"colour": null,
+"colour": "transparent",
 "size": null,
-"linetype": null 
+"linetype": "solid" 
 },
-"panel_border": {
- "fill": null,
-"colour": null,
-"size": null,
-"linetype": null 
-},
+"panel_border": [],
 "grid_major": {
- "size":      1,
-"linetype": "solid",
-"loc": {
- "x": [ 0.0063519, 0.29408, 0.5818, 0.86953 ],
-"y": [ 0.1031, 0.39173, 0.68035, 0.96898 ] 
+ "loc": {
+ "x": [
+ 0.0063519,
+0.29408,
+0.5818,
+0.86953 
+],
+"y": [
+ 0.1031,
+0.39173,
+0.68035,
+0.96898 
+] 
 } 
 },
 "grid_minor": {
- "size":      1,
-"linetype": "solid",
-"loc": {
- "x": [ 0.15021, 0.43794, 0.72566 ],
-"y": [ 0.24742, 0.53604, 0.82466 ] 
+ "loc": {
+ "x": [
+ 0.15021,
+0.43794,
+0.72566 
+],
+"y": [
+ 0.24742,
+0.53604,
+0.82466 
+] 
 } 
 },
 "axis1": {
@@ -1705,30 +1747,39 @@
 ],
 "panel_background": {
  "fill": "#FFFFFF",
-"colour": null,
+"colour": "transparent",
 "size": null,
-"linetype": null 
+"linetype": "solid" 
 },
-"panel_border": {
- "fill": null,
-"colour": null,
-"size": null,
-"linetype": null 
-},
+"panel_border": [],
 "grid_major": {
- "size":      1,
-"linetype": "solid",
-"loc": {
- "x": [ 0.0063519, 0.29408, 0.5818, 0.86953 ],
-"y": [ 0.1031, 0.39173, 0.68035, 0.96898 ] 
+ "loc": {
+ "x": [
+ 0.0063519,
+0.29408,
+0.5818,
+0.86953 
+],
+"y": [
+ 0.1031,
+0.39173,
+0.68035,
+0.96898 
+] 
 } 
 },
 "grid_minor": {
- "size":      1,
-"linetype": "solid",
-"loc": {
- "x": [ 0.15021, 0.43794, 0.72566 ],
-"y": [ 0.24742, 0.53604, 0.82466 ] 
+ "loc": {
+ "x": [
+ 0.15021,
+0.43794,
+0.72566 
+],
+"y": [
+ 0.24742,
+0.53604,
+0.82466 
+] 
 } 
 },
 "axis1": {
@@ -1834,30 +1885,39 @@
 ],
 "panel_background": {
  "fill": "#FFFFFF",
-"colour": null,
+"colour": "transparent",
 "size": null,
-"linetype": null 
+"linetype": "solid" 
 },
-"panel_border": {
- "fill": null,
-"colour": null,
-"size": null,
-"linetype": null 
-},
+"panel_border": [],
 "grid_major": {
- "size":      1,
-"linetype": "solid",
-"loc": {
- "x": [ 0.0063519, 0.29408, 0.5818, 0.86953 ],
-"y": [ 0.1031, 0.39173, 0.68035, 0.96898 ] 
+ "loc": {
+ "x": [
+ 0.0063519,
+0.29408,
+0.5818,
+0.86953 
+],
+"y": [
+ 0.1031,
+0.39173,
+0.68035,
+0.96898 
+] 
 } 
 },
 "grid_minor": {
- "size":      1,
-"linetype": "solid",
-"loc": {
- "x": [ 0.15021, 0.43794, 0.72566 ],
-"y": [ 0.24742, 0.53604, 0.82466 ] 
+ "loc": {
+ "x": [
+ 0.15021,
+0.43794,
+0.72566 
+],
+"y": [
+ 0.24742,
+0.53604,
+0.82466 
+] 
 } 
 },
 "axis1": {
@@ -1959,30 +2019,39 @@
 ],
 "panel_background": {
  "fill": "#FFFFFF",
-"colour": null,
+"colour": "transparent",
 "size": null,
-"linetype": null 
+"linetype": "solid" 
 },
-"panel_border": {
- "fill": null,
-"colour": null,
-"size": null,
-"linetype": null 
-},
+"panel_border": [],
 "grid_major": {
- "size":      1,
-"linetype": "solid",
-"loc": {
- "x": [ 0.0063519, 0.29408, 0.5818, 0.86953 ],
-"y": [ 0.1031, 0.39173, 0.68035, 0.96898 ] 
+ "loc": {
+ "x": [
+ 0.0063519,
+0.29408,
+0.5818,
+0.86953 
+],
+"y": [
+ 0.1031,
+0.39173,
+0.68035,
+0.96898 
+] 
 } 
 },
 "grid_minor": {
- "size":      1,
-"linetype": "solid",
-"loc": {
- "x": [ 0.15021, 0.43794, 0.72566 ],
-"y": [ 0.24742, 0.53604, 0.82466 ] 
+ "loc": {
+ "x": [
+ 0.15021,
+0.43794,
+0.72566 
+],
+"y": [
+ 0.24742,
+0.53604,
+0.82466 
+] 
 } 
 },
 "axis1": {

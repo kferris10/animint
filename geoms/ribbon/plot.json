@@ -65,24 +65,30 @@
 ],
 "panel_background": {
  "fill": "#E5E5E5",
-"colour": null,
+"colour": "transparent",
 "size": null,
-"linetype": null 
+"linetype": "solid" 
 },
-"panel_border": {
- "fill": null,
-"colour": null,
-"size": null,
-"linetype": null 
-},
+"panel_border": [],
 "grid_major": {
  "colour": "#FFFFFF",
 "size":      1,
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.045455, 0.27273,    0.5, 0.72727, 0.95455 ],
-"y": [ 0.040535, 0.34598, 0.65142, 0.95687 ] 
+ "x": [
+ 0.045455,
+0.27273,
+   0.5,
+0.72727,
+0.95455 
+],
+"y": [
+ 0.043751,
+0.35256,
+0.66137,
+0.97018 
+] 
 } 
 },
 "grid_minor": {
@@ -91,8 +97,17 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.15909, 0.38636, 0.61364, 0.84091 ],
-"y": [ 0.19326, 0.4987, 0.80415 ] 
+ "x": [
+ 0.15909,
+0.38636,
+0.61364,
+0.84091 
+],
+"y": [
+ 0.19816,
+0.50697,
+0.81578 
+] 
 } 
 },
 "axis1": {
@@ -114,10 +129,10 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.040535,
-0.34598,
-0.65142,
-0.95687 
+ 0.043751,
+0.35256,
+0.66137,
+0.97018 
 ],
 "ylab": [
  "0",
@@ -125,7 +140,7 @@
 "2",
 "3" 
 ],
-"yrange": [ -0.13271, 3.1412 ],
+"yrange": [ -0.14168, 3.0966 ],
 "yline": true,
 "yticks": true 
 },

@@ -169,24 +169,29 @@
 ],
 "panel_background": {
  "fill": "#E5E5E5",
-"colour": null,
+"colour": "transparent",
 "size": null,
-"linetype": null 
+"linetype": "solid" 
 },
-"panel_border": {
- "fill": null,
-"colour": null,
-"size": null,
-"linetype": null 
-},
+"panel_border": [],
 "grid_major": {
  "colour": "#FFFFFF",
 "size":      1,
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.19697, 0.44949, 0.70202, 0.95455 ],
-"y": [ 0.12466, 0.33958, 0.55451, 0.76944, 0.98437 ] 
+ "x": [
+ 0.19697,
+0.44949,
+0.70202,
+0.95455 
+],
+"y": [
+ 0.16196,
+0.38263,
+0.6033,
+0.82397 
+] 
 } 
 },
 "grid_minor": {
@@ -195,8 +200,19 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.070707, 0.32323, 0.57576, 0.82828 ],
-"y": [ 0.017191, 0.23212, 0.44705, 0.66198, 0.87691 ] 
+ "x": [
+ 0.070707,
+0.32323,
+0.57576,
+0.82828 
+],
+"y": [
+ 0.051629,
+0.2723,
+0.49296,
+0.71363,
+0.9343 
+] 
 } 
 },
 "axis1": {
@@ -216,20 +232,18 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.12466,
-0.33958,
-0.55451,
-0.76944,
-0.98437 
+ 0.16196,
+0.38263,
+0.6033,
+0.82397 
 ],
 "ylab": [
  "0",
 "5",
 "10",
-"15",
-"20" 
+"15" 
 ],
-"yrange": [ -2.8999, 20.364 ],
+"yrange": [ -3.6698, 18.989 ],
 "yline": true,
 "yticks": true 
 },
@@ -249,8 +263,7 @@
  "0",
 "5",
 "10",
-"15",
-"20" 
+"15" 
 ],
 "legend": {},
 "title": "Constant alpha",
@@ -289,24 +302,29 @@
 ],
 "panel_background": {
  "fill": "#E5E5E5",
-"colour": null,
+"colour": "transparent",
 "size": null,
-"linetype": null 
+"linetype": "solid" 
 },
-"panel_border": {
- "fill": null,
-"colour": null,
-"size": null,
-"linetype": null 
-},
+"panel_border": [],
 "grid_major": {
  "colour": "#FFFFFF",
 "size":      1,
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.19697, 0.44949, 0.70202, 0.95455 ],
-"y": [ 0.099306, 0.35366, 0.60802, 0.86238 ] 
+ "x": [
+ 0.19697,
+0.44949,
+0.70202,
+0.95455 
+],
+"y": [
+ 0.090211,
+0.35658,
+0.62295,
+0.88932 
+] 
 } 
 },
 "grid_minor": {
@@ -315,8 +333,17 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.070707, 0.32323, 0.57576, 0.82828 ],
-"y": [ 0.22649, 0.48084, 0.7352, 0.98956 ] 
+ "x": [
+ 0.070707,
+0.32323,
+0.57576,
+0.82828 
+],
+"y": [
+ 0.2234,
+0.48976,
+0.75613 
+] 
 } 
 },
 "axis1": {
@@ -336,10 +363,10 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.099306,
-0.35366,
-0.60802,
-0.86238 
+ 0.090211,
+0.35658,
+0.62295,
+0.88932 
 ],
 "ylab": [
  "0",
@@ -347,7 +374,7 @@
 "10",
 "15" 
 ],
-"yrange": [ -1.9521, 17.705 ],
+"yrange": [ -1.6934, 17.078 ],
 "yline": true,
 "yticks": true 
 },
@@ -406,24 +433,29 @@
 ],
 "panel_background": {
  "fill": "#E5E5E5",
-"colour": null,
+"colour": "transparent",
 "size": null,
-"linetype": null 
+"linetype": "solid" 
 },
-"panel_border": {
- "fill": null,
-"colour": null,
-"size": null,
-"linetype": null 
-},
+"panel_border": [],
 "grid_major": {
  "colour": "#FFFFFF",
 "size":      1,
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.19697, 0.44949, 0.70202, 0.95455 ],
-"y": [ 0.099306, 0.35366, 0.60802, 0.86238 ] 
+ "x": [
+ 0.19697,
+0.44949,
+0.70202,
+0.95455 
+],
+"y": [
+ 0.090211,
+0.35658,
+0.62295,
+0.88932 
+] 
 } 
 },
 "grid_minor": {
@@ -432,8 +464,17 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.070707, 0.32323, 0.57576, 0.82828 ],
-"y": [ 0.22649, 0.48084, 0.7352, 0.98956 ] 
+ "x": [
+ 0.070707,
+0.32323,
+0.57576,
+0.82828 
+],
+"y": [
+ 0.2234,
+0.48976,
+0.75613 
+] 
 } 
 },
 "axis1": {
@@ -453,10 +494,10 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.099306,
-0.35366,
-0.60802,
-0.86238 
+ 0.090211,
+0.35658,
+0.62295,
+0.88932 
 ],
 "ylab": [
  "0",
@@ -464,7 +505,7 @@
 "10",
 "15" 
 ],
-"yrange": [ -1.9521, 17.705 ],
+"yrange": [ -1.6934, 17.078 ],
 "yline": true,
 "yticks": true 
 },
@@ -512,32 +553,32 @@
 "title": "maxy",
 "entries": [
  {
- "pathalpha": 0.4368,
+ "pathalpha": 0.4928,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "15.0" ] 
+"label": [ "16" ] 
 },
 {
- "pathalpha": 0.3496,
+ "pathalpha": 0.3664,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "12.5" ] 
+"label": [ "12" ] 
 },
 {
- "pathalpha": 0.2624,
+ "pathalpha": 0.2408,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "10.0" ] 
+"label": [ "8" ] 
 },
 {
- "pathalpha": 0.1752,
+ "pathalpha": 0.1144,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "7.5" ] 
+"label": [ "4" ] 
 } 
 ] 
 } 
@@ -578,24 +619,29 @@
 ],
 "panel_background": {
  "fill": "#E5E5E5",
-"colour": null,
+"colour": "transparent",
 "size": null,
-"linetype": null 
+"linetype": "solid" 
 },
-"panel_border": {
- "fill": null,
-"colour": null,
-"size": null,
-"linetype": null 
-},
+"panel_border": [],
 "grid_major": {
  "colour": "#FFFFFF",
 "size":      1,
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.19697, 0.44949, 0.70202, 0.95455 ],
-"y": [ 0.071851, 0.39014, 0.70844 ] 
+ "x": [
+ 0.19697,
+0.44949,
+0.70202,
+0.95455 
+],
+"y": [
+ 0.094008,
+0.38421,
+0.67441,
+0.96462 
+] 
 } 
 },
 "grid_minor": {
@@ -604,8 +650,17 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.070707, 0.32323, 0.57576, 0.82828 ],
-"y": [  0.231, 0.54929, 0.86758 ] 
+ "x": [
+ 0.070707,
+0.32323,
+0.57576,
+0.82828 
+],
+"y": [
+ 0.23911,
+0.52931,
+0.81952 
+] 
 } 
 },
 "axis1": {
@@ -625,16 +680,18 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.071851,
-0.39014,
-0.70844 
+ 0.094008,
+0.38421,
+0.67441,
+0.96462 
 ],
 "ylab": [
  "0",
 "5",
-"10" 
+"10",
+"15" 
 ],
-"yrange": [ -1.1287,  14.58 ],
+"yrange": [ -1.6197,  15.61 ],
 "yline": true,
 "yticks": true 
 },
@@ -653,7 +710,8 @@
 "ylabs": [
  "0",
 "5",
-"10" 
+"10",
+"15" 
 ],
 "legend": {
  "Line Size": {
@@ -662,25 +720,37 @@
 "title": "Line Size",
 "entries": [
  {
- "pathsize":  2.668,
+ "pathsize":      3,
+"pathcolour": "#000000",
+"pathlinetype":      1,
+"label": [ "2.00" ] 
+},
+{
+ "pathsize":  2.624,
+"pathcolour": "#000000",
+"pathlinetype":      1,
+"label": [ "1.75" ] 
+},
+{
+ "pathsize":  2.248,
 "pathcolour": "#000000",
 "pathlinetype":      1,
 "label": [ "1.50" ] 
 },
 {
- "pathsize":  2.168,
+ "pathsize":  1.876,
 "pathcolour": "#000000",
 "pathlinetype":      1,
 "label": [ "1.25" ] 
 },
 {
- "pathsize":  1.668,
+ "pathsize":    1.5,
 "pathcolour": "#000000",
 "pathlinetype":      1,
 "label": [ "1.00" ] 
 },
 {
- "pathsize":  1.168,
+ "pathsize":  1.124,
 "pathcolour": "#000000",
 "pathlinetype":      1,
 "label": [ "0.75" ] 
@@ -724,24 +794,29 @@
 ],
 "panel_background": {
  "fill": "#E5E5E5",
-"colour": null,
+"colour": "transparent",
 "size": null,
-"linetype": null 
+"linetype": "solid" 
 },
-"panel_border": {
- "fill": null,
-"colour": null,
-"size": null,
-"linetype": null 
-},
+"panel_border": [],
 "grid_major": {
  "colour": "#FFFFFF",
 "size":      1,
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.19697, 0.44949, 0.70202, 0.95455 ],
-"y": [ 0.12466, 0.33958, 0.55451, 0.76944, 0.98437 ] 
+ "x": [
+ 0.19697,
+0.44949,
+0.70202,
+0.95455 
+],
+"y": [
+ 0.16196,
+0.38263,
+0.6033,
+0.82397 
+] 
 } 
 },
 "grid_minor": {
@@ -750,8 +825,19 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.070707, 0.32323, 0.57576, 0.82828 ],
-"y": [ 0.017191, 0.23212, 0.44705, 0.66198, 0.87691 ] 
+ "x": [
+ 0.070707,
+0.32323,
+0.57576,
+0.82828 
+],
+"y": [
+ 0.051629,
+0.2723,
+0.49296,
+0.71363,
+0.9343 
+] 
 } 
 },
 "axis1": {
@@ -771,20 +857,18 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.12466,
-0.33958,
-0.55451,
-0.76944,
-0.98437 
+ 0.16196,
+0.38263,
+0.6033,
+0.82397 
 ],
 "ylab": [
  "0",
 "5",
 "10",
-"15",
-"20" 
+"15" 
 ],
-"yrange": [ -2.8999, 20.364 ],
+"yrange": [ -3.6698, 18.989 ],
 "yline": true,
 "yticks": true 
 },
@@ -804,8 +888,7 @@
  "0",
 "5",
 "10",
-"15",
-"20" 
+"15" 
 ],
 "legend": {
  "maxy": {
@@ -814,19 +897,19 @@
 "title": "maxy",
 "entries": [
  {
- "pathcolour": "#438BC4",
+ "pathcolour": "#4895D2",
 "pathsize":    0.5,
 "pathlinetype":      1,
 "label": [ "15" ] 
 },
 {
- "pathcolour": "#2E618B",
+ "pathcolour": "#326A98",
 "pathsize":    0.5,
 "pathlinetype":      1,
 "label": [ "10" ] 
 },
 {
- "pathcolour": "#1A3A57",
+ "pathcolour": "#1E4161",
 "pathsize":    0.5,
 "pathlinetype":      1,
 "label": [ "5" ] 
@@ -839,39 +922,32 @@
 "title": "miny",
 "entries": [
  {
- "pathalpha": 0.2768,
+ "pathalpha": 0.2976,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "3" ] 
+"label": [ "4" ] 
 },
 {
- "pathalpha":   0.24,
+ "pathalpha":  0.238,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
 "label": [ "2" ] 
 },
 {
- "pathalpha": 0.2036,
-"pathcolour": "#000000",
-"pathsize":    0.5,
-"pathlinetype":      1,
-"label": [ "1" ] 
-},
-{
- "pathalpha": 0.1672,
+ "pathalpha": 0.1784,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
 "label": [ "0" ] 
 },
 {
- "pathalpha": 0.1308,
+ "pathalpha": 0.1192,
 "pathcolour": "#000000",
 "pathsize":    0.5,
 "pathlinetype":      1,
-"label": [ "-1" ] 
+"label": [ "-2" ] 
 } 
 ] 
 } 

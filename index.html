@@ -9,7 +9,7 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="date" content="2015-06-17" />
+<meta name="date" content="2015-07-03" />
 
 <title>animint tutorial</title>
 
@@ -64,7 +64,7 @@ img {
 
 <div id="header">
 <h1 class="title">animint tutorial</h1>
-<h4 class="date"><em>2015-06-17</em></h4>
+<h4 class="date"><em>2015-07-03</em></h4>
 </div>
 
 <div id="TOC">
@@ -335,7 +335,7 @@ animint2dir(tornado.anim, &quot;tornado-anim&quot;)</code></pre>
 </div>
 <div id="climate-example" class="section level2">
 <h2>Climate Example</h2>
-<p>Dataset: 2006 Data Expo data, from NASA Goddard Institute for Space Studies. Data is a subset of the monthly climatology of the International Satellite Cloud Climatology Project (ISCCP). Dataset contains monthly observations of atmospheric variables 1995-2000, for a 24x24 grid of locations over North, South, and Central America between 113.75ºW-56.25ºW, 21.25ºS-36.25ºN with 2.5º grid spacing. Dataset contains information such as cloud cover at low, med, and high altitudes, temperature, surface temperature, pressure, and ozone concentration. Temperatures given are in Celsius.</p>
+<p>Dataset: 2006 Data Expo data, from NASA Goddard Institute for Space Studies. Data is a subset of the monthly climatology of the International Satellite Cloud Climatology Project (ISCCP). Dataset contains monthly observations of atmospheric variables 1995-2000, for a 24x24 grid of locations over North, South, and Central America between 113.75ÂºW-56.25ÂºW, 21.25ÂºS-36.25ÂºN with 2.5Âº grid spacing. Dataset contains information such as cloud cover at low, med, and high altitudes, temperature, surface temperature, pressure, and ozone concentration. Temperatures given are in Celsius.</p>
 <p>Dataset description adapted from <a href="http://had.co.nz/dataexpo/isu-dataexpo.pdf">one of the submitted posters</a></p>
 <pre class="r"><code>library(&quot;animint&quot;)
 library(&quot;maps&quot;)
@@ -986,7 +986,7 @@ g13</code></pre>
   scale_fill_continuous(&quot;Density Level&quot;, low = &quot;#56B1F7&quot;, high = &quot;#132B43&quot;) + 
   guides(colour = guide_legend(override.aes = list(alpha = 1)), 
          fill = guide_legend(override.aes = list(alpha = 1))) + 
-#   scale_y_continuous(limits = c(40,110), trans = &quot;log10&quot;) +
+  scale_y_continuous(limits = c(40,110), trans = &quot;log10&quot;) +
   scale_x_continuous(limits = c(.5, 6)) +
   ggtitle(&quot;geom_density2d polygon&quot;)
 g14</code></pre>
@@ -1123,7 +1123,7 @@ g21</code></pre>
 ## other attached packages:
 ## [1] hexbin_1.27.0      MASS_7.3-39        reshape2_1.4.1    
 ## [4] lubridate_1.3.3    maps_2.3-9         plyr_1.8.1        
-## [7] animint_2015.06.16 proto_0.3-10       ggplot2_1.0.0.99  
+## [7] animint_2015.07.03 proto_0.3-10       ggplot2_1.0.1     
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] colorspace_1.2-4 digest_0.6.8     evaluate_0.5.5   formatR_1.0     

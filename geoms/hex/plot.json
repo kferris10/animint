@@ -64,24 +64,28 @@
 ],
 "panel_background": {
  "fill": "#E5E5E5",
-"colour": null,
+"colour": "transparent",
 "size": null,
-"linetype": null 
+"linetype": "solid" 
 },
-"panel_border": {
- "fill": null,
-"colour": null,
-"size": null,
-"linetype": null 
-},
+"panel_border": [],
 "grid_major": {
  "colour": "#FFFFFF",
 "size":      1,
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.27761, 0.58681,  0.896 ],
-"y": [ 0.018717, 0.26981, 0.5209, 0.77199 ] 
+ "x": [
+ 0.23873,
+0.50906,
+0.77938 
+],
+"y": [
+ 0.018717,
+0.27155,
+0.52438,
+0.77722 
+] 
 } 
 },
 "grid_minor": {
@@ -90,29 +94,39 @@
 "linetype": "solid",
 "lineend": null,
 "loc": {
- "x": [ 0.12301, 0.43221, 0.74141 ],
-"y": [ 0.14426, 0.39536, 0.64645, 0.89754 ] 
+ "x": [
+ 0.10357,
+0.3739,
+0.64422,
+0.91454 
+],
+"y": [
+ 0.14513,
+0.39797,
+0.6508,
+0.90363 
+] 
 } 
 },
 "axis1": {
  "x": [
- 0.27761,
-0.58681,
- 0.896 
+ 0.23873,
+0.50906,
+0.77938 
 ],
 "xlab": [
  "1",
 "2",
 "3" 
 ],
-"xrange": [ 0.10216, 3.3363 ],
+"xrange": [ 0.11685, 3.8161 ],
 "xline": true,
 "xticks": true,
 "y": [
  0.018717,
-0.26981,
-0.5209,
-0.77199 
+0.27155,
+0.52438,
+0.77722 
 ],
 "ylab": [
  "0",
@@ -120,7 +134,7 @@
 "10000",
 "15000" 
 ],
-"yrange": [ -372.7,  19540 ],
+"yrange": [ -370.14,  19406 ],
 "yline": true,
 "yticks": true 
 },
@@ -148,24 +162,14 @@
 "title": "count",
 "entries": [
  {
- "polygonfill": "#142D46",
+ "polygonfill": "#275278",
 "polygonsize":    0.5,
-"label": [ "120" ] 
+"label": [ "100" ] 
 },
 {
- "polygonfill": "#234B6F",
+ "polygonfill": "#3E80B6",
 "polygonsize":    0.5,
-"label": [ "90" ] 
-},
-{
- "polygonfill": "#336C9A",
-"polygonsize":    0.5,
-"label": [ "60" ] 
-},
-{
- "polygonfill": "#448EC8",
-"polygonsize":    0.5,
-"label": [ "30" ] 
+"label": [ "50" ] 
 } 
 ] 
 } 
