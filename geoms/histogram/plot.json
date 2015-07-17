@@ -68,89 +68,82 @@
 "panel_background": {
  "fill": "#E5E5E5",
 "colour": "transparent",
-"size": null,
-"linetype": "solid" 
+"size":    0.5,
+"linetype":      1 
 },
 "panel_border": [],
 "grid_major": {
  "colour": "#FFFFFF",
-"size":      1,
-"linetype": "solid",
-"lineend": null,
+"size":    0.5,
+"linetype":      1,
+"lineend": "butt",
 "loc": {
  "x": [
- 0.08042,
-0.25524,
-0.43007,
-0.6049,
-0.77972,
-0.95455 
+ 0.086777,
+0.29339,
+   0.5,
+0.70661,
+0.91322 
 ],
 "y": [
  0.045455,
-0.27273,
-   0.5,
-0.72727,
-0.95455 
+0.29798,
+0.55051,
+0.80303 
 ] 
 } 
 },
 "grid_minor": {
  "colour": "#F2F2F2",
 "size":   0.25,
-"linetype": "solid",
-"lineend": null,
+"linetype":      1,
+"lineend": "butt",
 "loc": {
  "x": [
- 0.16783,
-0.34266,
-0.51748,
-0.69231,
-0.86713 
+ 0.19008,
+0.39669,
+0.60331,
+0.80992 
 ],
 "y": [
- 0.15909,
-0.38636,
-0.61364,
-0.84091 
+ 0.17172,
+0.42424,
+0.67677,
+0.92929 
 ] 
 } 
 },
 "axis1": {
  "x": [
- 0.08042,
-0.25524,
-0.43007,
-0.6049,
-0.77972,
-0.95455 
+ 0.086777,
+0.29339,
+   0.5,
+0.70661,
+0.91322 
 ],
 "xlab": [
  "0",
 "5",
 "10",
 "15",
-"20",
-"25" 
+"20" 
 ],
-"xrange": [   -2.3,   26.3 ],
+"xrange": [   -2.1,   22.1 ],
 "xline": true,
 "xticks": true,
 "y": [
  0.045455,
-0.27273,
-   0.5,
-0.72727,
-0.95455 
+0.29798,
+0.55051,
+0.80303 
 ],
 "ylab": [
  "0.0",
 "2.5",
 "5.0",
-"7.5",
-"10.0" 
+"7.5" 
 ],
-"yrange": [   -0.5,   10.5 ],
+"yrange": [  -0.45,   9.45 ],
 "yline": true,
 "yticks": true 
 },
@@ -165,15 +158,13 @@
 "5",
 "10",
 "15",
-"20",
-"25" 
+"20" 
 ],
 "ylabs": [
  "0.0",
 "2.5",
 "5.0",
-"7.5",
-"10.0" 
+"7.5" 
 ],
 "legend": {
  "count": {
@@ -182,28 +173,21 @@
 "title": "count",
 "entries": [
  {
- "polygonfill": "#55B1F7",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonweight":      1,
-"label": [ "10.0" ] 
-},
-{
- "polygonfill": "#448CC6",
+ "polygonfill": "#4998D6",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
 "polygonweight":      1,
 "label": [ "7.5" ] 
 },
 {
- "polygonfill": "#326A97",
+ "polygonfill": "#3671A2",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
 "polygonweight":      1,
 "label": [ "5.0" ] 
 },
 {
- "polygonfill": "#22496B",
+ "polygonfill": "#244C70",
 "polygonsize":    0.5,
 "polygonlinetype":      1,
 "polygonweight":      1,

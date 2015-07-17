@@ -63,68 +63,67 @@
 "panel_background": {
  "fill": "#E5E5E5",
 "colour": "transparent",
-"size": null,
-"linetype": "solid" 
+"size":    0.5,
+"linetype":      1 
 },
 "panel_border": [],
 "grid_major": {
  "colour": "#FFFFFF",
-"size":      1,
-"linetype": "solid",
-"lineend": null,
+"size":    0.5,
+"linetype":      1,
+"lineend": "butt",
 "loc": {
  "x": [
- 0.25013,
-0.51595,
-0.78177 
+ 0.29725,
+0.62426,
+0.95128 
 ],
 "y": [
- 0.026148,
-0.2743,
-0.52246,
-0.77061 
+ 0.026406,
+0.27444,
+0.52247,
+0.7705 
 ] 
 } 
 },
 "grid_minor": {
  "colour": "#F2F2F2",
 "size":   0.25,
-"linetype": "solid",
-"lineend": null,
+"linetype":      1,
+"lineend": "butt",
 "loc": {
  "x": [
- 0.11722,
-0.38304,
-0.64886,
-0.91467 
+ 0.13375,
+0.46076,
+0.78777 
 ],
 "y": [
- 0.15023,
-0.39838,
-0.64654,
-0.89469 
+ 0.15042,
+0.39846,
+0.64649,
+0.89452 
 ] 
 } 
 },
 "axis1": {
  "x": [
- 0.25013,
-0.51595,
-0.78177 
+ 0.29725,
+0.62426,
+0.95128 
 ],
 "xlab": [
  "1",
 "2",
 "3" 
 ],
-"xrange": [  0.059,  3.821 ],
+"xrange": [  0.091,  3.149 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.026148,
-0.2743,
-0.52246,
-0.77061 
+ 0.026406,
+0.27444,
+0.52247,
+0.7705 
 ],
 "ylab": [
  "0",
@@ -132,7 +131,7 @@
 "10000",
 "15000" 
 ],
-"yrange": [ -526.85,  19622 ],
+"yrange": [ -532.3,  19626 ],
 "yline": true,
 "yticks": true 
 },
@@ -160,35 +159,28 @@
 "title": "Density",
 "entries": [
  {
- "pointalpha": 0.9964,
-"pointshape":     16,
-"pointcolour": "#000000",
-"pointsize":      1,
-"label": [ "5e-04" ] 
-},
-{
- "pointalpha": 0.8164,
+ "pointalpha": 0.8254,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,
 "label": [ "4e-04" ] 
 },
 {
- "pointalpha": 0.6382,
+ "pointalpha": 0.6436,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,
 "label": [ "3e-04" ] 
 },
 {
- "pointalpha": 0.4582,
+ "pointalpha": 0.4618,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,
 "label": [ "2e-04" ] 
 },
 {
- "pointalpha":   0.28,
+ "pointalpha": 0.2818,
 "pointshape":     16,
 "pointcolour": "#000000",
 "pointsize":      1,

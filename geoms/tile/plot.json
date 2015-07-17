@@ -63,84 +63,82 @@
 "panel_background": {
  "fill": "#E5E5E5",
 "colour": "transparent",
-"size": null,
-"linetype": "solid" 
+"size":    0.5,
+"linetype":      1 
 },
 "panel_border": [],
 "grid_major": {
  "colour": "#FFFFFF",
-"size":      1,
-"linetype": "solid",
-"lineend": null,
+"size":    0.5,
+"linetype":      1,
+"lineend": "butt",
 "loc": {
  "x": [
- 0.22222,
-0.47475,
-0.72727,
-0.9798 
+ 0.026515,
+0.21591,
+0.4053,
+0.5947,
+0.78409,
+0.97348 
 ],
 "y": [
- 0.13287,
-0.30769,
-0.48252,
-0.65734,
-0.83217 
+ 0.21787,
+0.53135,
+0.84483 
 ] 
 } 
 },
 "grid_minor": {
  "colour": "#F2F2F2",
 "size":   0.25,
-"linetype": "solid",
-"lineend": null,
+"linetype":      1,
+"lineend": "butt",
 "loc": {
  "x": [
- 0.09596,
-0.34848,
-0.60101,
-0.85354 
+ 0.12121,
+0.31061,
+   0.5,
+0.68939,
+0.87879 
 ],
 "y": [
- 0.045455,
-0.22028,
-0.3951,
-0.56993,
-0.74476,
-0.91958 
+ 0.061129,
+0.37461,
+0.68809 
 ] 
 } 
 },
 "axis1": {
  "x": [
- 0.22222,
-0.47475,
-0.72727,
-0.9798 
+ 0.026515,
+0.21591,
+0.4053,
+0.5947,
+0.78409,
+0.97348 
 ],
 "xlab": [
- "-5",
-"0",
-"5",
-"10" 
-],
-"xrange": [   -9.4,   10.4 ],
-"xline": true,
-"xticks": true,
-"y": [
- 0.13287,
-0.30769,
-0.48252,
-0.65734,
-0.83217 
-],
-"ylab": [
  "-10",
 "-5",
 "0",
 "5",
+"10",
+"15" 
+],
+"xrange": [  -10.7,   15.7 ],
+"xline": true,
+"xticks": true,
+"y": [
+ 0.21787,
+0.53135,
+0.84483 
+],
+"ylab": [
+ "-10",
+"0",
 "10" 
 ],
-"yrange": [  -13.8,   14.8 ],
+"yrange": [ -16.95,  14.95 ],
 "yline": true,
 "yticks": true 
 },
@@ -151,16 +149,16 @@
 "yanchor": "end",
 "yangle":      0,
 "xlabs": [
- "-5",
-"0",
-"5",
-"10" 
-],
-"ylabs": [
  "-10",
 "-5",
 "0",
 "5",
+"10",
+"15" 
+],
+"ylabs": [
+ "-10",
+"0",
 "10" 
 ],
 "legend": {
@@ -170,22 +168,34 @@
 "title": "n",
 "entries": [
  {
- "polygonfill": "#16324D",
+ "polygonfill": "#132B43",
 "polygonsize":    0.1,
 "polygonlinetype":      1,
-"label": [ "30" ] 
+"label": [ "25" ] 
 },
 {
- "polygonfill": "#2B5B83",
+ "polygonfill": "#1F4464",
 "polygonsize":    0.1,
 "polygonlinetype":      1,
 "label": [ "20" ] 
 },
 {
- "polygonfill": "#4187BE",
+ "polygonfill": "#2D5E88",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "15" ] 
+},
+{
+ "polygonfill": "#3B7BAE",
 "polygonsize":    0.1,
 "polygonlinetype":      1,
 "label": [ "10" ] 
+},
+{
+ "polygonfill": "#4998D6",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "5" ] 
 } 
 ] 
 } 

@@ -59,15 +59,15 @@
 "panel_background": {
  "fill": "#E5E5E5",
 "colour": "transparent",
-"size": null,
-"linetype": "solid" 
+"size":    0.5,
+"linetype":      1 
 },
 "panel_border": [],
 "grid_major": {
  "colour": "#FFFFFF",
-"size":      1,
-"linetype": "solid",
-"lineend": null,
+"size":    0.5,
+"linetype":      1,
+"lineend": "butt",
 "loc": {
  "x": [
  0.1875,
@@ -75,28 +75,26 @@
 0.8125 
 ],
 "y": [
- 0.11559,
-0.29688,
-0.47816,
-0.65944,
-0.84073 
+ 0.097601,
+0.31938,
+0.54116,
+0.76294,
+0.98472 
 ] 
 } 
 },
 "grid_minor": {
  "colour": "#F2F2F2",
 "size":   0.25,
-"linetype": "solid",
-"lineend": null,
+"linetype":      1,
+"lineend": "butt",
 "loc": {
  "x": [],
 "y": [
- 0.024948,
-0.20623,
-0.38752,
-0.5688,
-0.75009,
-0.93137 
+ 0.20849,
+0.43027,
+0.65205,
+0.87383 
 ] 
 } 
 },
@@ -115,11 +113,11 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.11559,
-0.29688,
-0.47816,
-0.65944,
-0.84073 
+ 0.097601,
+0.31938,
+0.54116,
+0.76294,
+0.98472 
 ],
 "ylab": [
  "0",
@@ -128,7 +126,7 @@
 "15",
 "20" 
 ],
-"yrange": [ -3.1881, 24.393 ],
+"yrange": [ -2.2004, 20.344 ],
 "yline": true,
 "yticks": true 
 },
