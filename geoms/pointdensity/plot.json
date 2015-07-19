@@ -33,7 +33,53 @@
 "selectors": [],
 "plots": {
  "g16": {
- "strips": {
+ "legend": {
+ "Density": {
+ "guide": "legend",
+"geoms": "point",
+"title": "Density",
+"vars": "..density..",
+"legend_type": "alpha",
+"entries": [
+ {
+ "pointalpha": 0.9766,
+"pointshape":     16,
+"pointcolour": "#000000",
+"pointsize":      1,
+"label": [ "5e-04" ] 
+},
+{
+ "pointalpha": 0.8002,
+"pointshape":     16,
+"pointcolour": "#000000",
+"pointsize":      1,
+"label": [ "4e-04" ] 
+},
+{
+ "pointalpha": 0.6256,
+"pointshape":     16,
+"pointcolour": "#000000",
+"pointsize":      1,
+"label": [ "3e-04" ] 
+},
+{
+ "pointalpha":  0.451,
+"pointshape":     16,
+"pointcolour": "#000000",
+"pointsize":      1,
+"label": [ "2e-04" ] 
+},
+{
+ "pointalpha": 0.2746,
+"pointshape":     16,
+"pointcolour": "#000000",
+"pointsize":      1,
+"label": [ "1e-04" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -74,15 +120,14 @@
 "lineend": "butt",
 "loc": {
  "x": [
- 0.29725,
-0.62426,
-0.95128 
+ 0.33117,
+0.70223 
 ],
 "y": [
- 0.026406,
-0.27444,
-0.52247,
-0.7705 
+ 0.028993,
+0.27543,
+0.52186,
+0.76829 
 ] 
 } 
 },
@@ -93,37 +138,35 @@
 "lineend": "butt",
 "loc": {
  "x": [
- 0.13375,
-0.46076,
-0.78777 
+ 0.14564,
+0.5167,
+0.88776 
 ],
 "y": [
- 0.15042,
-0.39846,
-0.64649,
-0.89452 
+ 0.15221,
+0.39864,
+0.64508,
+0.89151 
 ] 
 } 
 },
 "axis1": {
  "x": [
- 0.29725,
-0.62426,
-0.95128 
+ 0.33117,
+0.70223 
 ],
 "xlab": [
  "1",
-"2",
-"3" 
+"2" 
 ],
-"xrange": [  0.091,  3.149 ],
+"xrange": [ 0.1075, 2.8025 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.026406,
-0.27444,
-0.52247,
-0.7705 
+ 0.028993,
+0.27543,
+0.52186,
+0.76829 
 ],
 "ylab": [
  "0",
@@ -131,7 +174,7 @@
 "10000",
 "15000" 
 ],
-"yrange": [ -532.3,  19626 ],
+"yrange": [ -588.25,  19701 ],
 "yline": true,
 "yticks": true 
 },
@@ -143,8 +186,7 @@
 "yangle":      0,
 "xlabs": [
  "1",
-"2",
-"3" 
+"2" 
 ],
 "ylabs": [
  "0",
@@ -152,43 +194,6 @@
 "10000",
 "15000" 
 ],
-"legend": {
- "Density": {
- "guide": "legend",
-"geoms": "point",
-"title": "Density",
-"entries": [
- {
- "pointalpha": 0.8254,
-"pointshape":     16,
-"pointcolour": "#000000",
-"pointsize":      1,
-"label": [ "4e-04" ] 
-},
-{
- "pointalpha": 0.6436,
-"pointshape":     16,
-"pointcolour": "#000000",
-"pointsize":      1,
-"label": [ "3e-04" ] 
-},
-{
- "pointalpha": 0.4618,
-"pointshape":     16,
-"pointcolour": "#000000",
-"pointsize":      1,
-"label": [ "2e-04" ] 
-},
-{
- "pointalpha": 0.2818,
-"pointshape":     16,
-"pointcolour": "#000000",
-"pointsize":      1,
-"label": [ "1e-04" ] 
-} 
-] 
-} 
-},
 "title": "geom_density2d points",
 "options": {
  "width":    400,

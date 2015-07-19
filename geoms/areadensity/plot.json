@@ -8,12 +8,17 @@
 "y": "..count..",
 "group": "cut",
 "colour": "cut",
-"fill": "cut" 
+"fill": "cut",
+"showSelectedlegendcolour": "cut",
+"showSelectedlegendfill": "cut" 
 },
 "params": {
  "na.rm": false 
 },
-"subset_order": [],
+"subset_order": [
+ "showSelectedlegendcolour",
+"showSelectedlegendfill" 
+],
 "types": {
  "colour": "rgb",
 "fill": "rgb",
@@ -23,6 +28,8 @@
 "scaled": "numeric",
 "count": "numeric",
 "group": "integer",
+"showSelectedlegendcolour": "factor",
+"showSelectedlegendfill": "factor",
 "PANEL": "integer",
 "ymin": "numeric",
 "ymax": "numeric",
@@ -34,14 +41,71 @@
 "total": 1,
 "chunk_order": [],
 "nest_order": [
- "group" 
+ "showSelectedlegendcolour",
+"showSelectedlegendfill",
+"group" 
 ] 
 } 
 },
-"selectors": [],
+"selectors": {
+ "cut": {
+ "selected": [ "Ideal", "Premium", "Good", "Very Good", "Fair" ],
+"type": "multiple",
+"update": [
+ "geom1_area_g19",
+"geom1_area_g19" 
+] 
+} 
+},
 "plots": {
  "g19": {
- "strips": {
+ "legend": {
+ "cut": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "cut",
+"vars": "cut",
+"legend_type": [ "colour", "fill" ],
+"entries": [
+ {
+ "polygoncolour": "#F8766D",
+"polygonfill": "#F8766D",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"label": [ "Fair" ] 
+},
+{
+ "polygoncolour": "#A3A500",
+"polygonfill": "#A3A500",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"label": [ "Good" ] 
+},
+{
+ "polygoncolour": "#00BF7D",
+"polygonfill": "#00BF7D",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"label": [ "Very Good" ] 
+},
+{
+ "polygoncolour": "#00B0F6",
+"polygonfill": "#00B0F6",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"label": [ "Premium" ] 
+},
+{
+ "polygoncolour": "#E76BF3",
+"polygonfill": "#E76BF3",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"label": [ "Ideal" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -171,50 +235,6 @@
 "10000",
 "20000" 
 ],
-"legend": {
- "cut": {
- "guide": "legend",
-"geoms": "polygon",
-"title": "cut",
-"entries": [
- {
- "polygoncolour": "#F8766D",
-"polygonfill": "#F8766D",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"label": [ "Fair" ] 
-},
-{
- "polygoncolour": "#A3A500",
-"polygonfill": "#A3A500",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"label": [ "Good" ] 
-},
-{
- "polygoncolour": "#00BF7D",
-"polygonfill": "#00BF7D",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"label": [ "Very Good" ] 
-},
-{
- "polygoncolour": "#00B0F6",
-"polygonfill": "#00B0F6",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"label": [ "Premium" ] 
-},
-{
- "polygoncolour": "#E76BF3",
-"polygonfill": "#E76BF3",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"label": [ "Ideal" ] 
-} 
-] 
-} 
-},
 "title": "geom_area",
 "options": {
  "width":    400,

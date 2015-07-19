@@ -294,7 +294,8 @@
 },
 "plots": {
  "map": {
- "strips": {
+ "legend": {},
+"strips": {
  "top": [
  "" 
 ],
@@ -400,14 +401,14 @@
 "yangle":      0,
 "xlabs": [],
 "ylabs": [],
-"legend": {},
 "options": {
  "width":    970,
 "height":    400 
 } 
 },
 "ts": {
- "strips": {
+ "legend": {},
+"strips": {
  "top": [
  "" 
 ],
@@ -532,7 +533,6 @@
 "150",
 "200" 
 ],
-"legend": {},
 "options": {
  "width":    400,
 "height":    400 

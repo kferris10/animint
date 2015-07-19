@@ -8,19 +8,23 @@
 "ymin": "ymin",
 "ymax": "ymax",
 "group": "group",
-"fill": "group" 
+"fill": "group",
+"showSelectedlegendfill": "group" 
 },
 "params": {
  "na.rm": false,
 "alpha":    0.5 
 },
-"subset_order": [],
+"subset_order": [
+ "showSelectedlegendfill" 
+],
 "types": {
  "fill": "rgb",
 "x": "numeric",
 "ymin": "numeric",
 "ymax": "numeric",
 "group": "integer",
+"showSelectedlegendfill": "factor",
 "PANEL": "integer",
 "colour": "rgb" 
 },
@@ -29,14 +33,48 @@
 "total": 1,
 "chunk_order": [],
 "nest_order": [
- "group" 
+ "showSelectedlegendfill",
+"group" 
 ] 
 } 
 },
-"selectors": [],
+"selectors": {
+ "group": {
+ "selected": [ "low", "high" ],
+"type": "multiple",
+"update": [
+ "geom1_ribbon_g2" 
+] 
+} 
+},
 "plots": {
  "g2": {
- "strips": {
+ "legend": {
+ "group": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "group",
+"vars": "group",
+"legend_type": "fill",
+"entries": [
+ {
+ "polygonfill": "#F8766D",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"polygonalpha":    0.5,
+"label": [ "low" ] 
+},
+{
+ "polygonfill": "#00BFC4",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"polygonalpha":    0.5,
+"label": [ "high" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -84,10 +122,10 @@
 0.95455 
 ],
 "y": [
- 0.024224,
-0.33852,
-0.65281,
-0.96711 
+ 0.042142,
+0.35217,
+0.66221,
+0.97224 
 ] 
 } 
 },
@@ -104,9 +142,9 @@
 0.84091 
 ],
 "y": [
- 0.18137,
-0.49567,
-0.80996 
+ 0.19716,
+0.50719,
+0.81722 
 ] 
 } 
 },
@@ -129,10 +167,10 @@
 "xline": true,
 "xticks": true,
 "y": [
- 0.024224,
-0.33852,
-0.65281,
-0.96711 
+ 0.042142,
+0.35217,
+0.66221,
+0.97224 
 ],
 "ylab": [
  "0",
@@ -140,7 +178,7 @@
 "2",
 "3" 
 ],
-"yrange": [ -0.077074, 3.1047 ],
+"yrange": [ -0.13593, 3.0895 ],
 "yline": true,
 "yticks": true 
 },
@@ -162,29 +200,6 @@
 "2",
 "3" 
 ],
-"legend": {
- "group": {
- "guide": "legend",
-"geoms": "polygon",
-"title": "group",
-"entries": [
- {
- "polygonfill": "#F8766D",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonalpha":    0.5,
-"label": [ "low" ] 
-},
-{
- "polygonfill": "#00BFC4",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonalpha":    0.5,
-"label": [ "high" ] 
-} 
-] 
-} 
-},
 "title": "geom_ribbon",
 "options": {
  "width":    400,

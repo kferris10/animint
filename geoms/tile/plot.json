@@ -33,7 +33,42 @@
 "selectors": [],
 "plots": {
  "g3": {
- "strips": {
+ "legend": {
+ "n": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "n",
+"vars": "n",
+"legend_type": "fill",
+"entries": [
+ {
+ "polygonfill": "#15304A",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "20" ] 
+},
+{
+ "polygonfill": "#254F74",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "15" ] 
+},
+{
+ "polygonfill": "#3670A1",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "10" ] 
+},
+{
+ "polygonfill": "#4793CF",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "5" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -74,17 +109,18 @@
 "lineend": "butt",
 "loc": {
  "x": [
- 0.026515,
-0.21591,
-0.4053,
-0.5947,
-0.78409,
-0.97348 
+ 0.21292,
+0.45215,
+0.69139,
+0.93062 
 ],
 "y": [
- 0.21787,
-0.53135,
-0.84483 
+ 0.029221,
+0.19156,
+0.3539,
+0.51623,
+0.67857,
+0.84091 
 ] 
 } 
 },
@@ -95,50 +131,54 @@
 "lineend": "butt",
 "loc": {
  "x": [
- 0.12121,
-0.31061,
-   0.5,
-0.68939,
-0.87879 
+ 0.093301,
+0.33254,
+0.57177,
+ 0.811 
 ],
 "y": [
- 0.061129,
-0.37461,
-0.68809 
+ 0.11039,
+0.27273,
+0.43506,
+0.5974,
+0.75974,
+0.92208 
 ] 
 } 
 },
 "axis1": {
  "x": [
- 0.026515,
-0.21591,
-0.4053,
-0.5947,
-0.78409,
-0.97348 
+ 0.21292,
+0.45215,
+0.69139,
+0.93062 
 ],
 "xlab": [
- "-10",
-"-5",
+ "-5",
 "0",
 "5",
-"10",
-"15" 
+"10" 
 ],
-"xrange": [  -10.7,   15.7 ],
+"xrange": [  -9.45,  11.45 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.21787,
-0.53135,
-0.84483 
+ 0.029221,
+0.19156,
+0.3539,
+0.51623,
+0.67857,
+0.84091 
 ],
 "ylab": [
- "-10",
+ "-15",
+"-10",
+"-5",
 "0",
+"5",
 "10" 
 ],
-"yrange": [ -16.95,  14.95 ],
+"yrange": [  -15.9,   14.9 ],
 "yline": true,
 "yticks": true 
 },
@@ -149,57 +189,19 @@
 "yanchor": "end",
 "yangle":      0,
 "xlabs": [
- "-10",
+ "-5",
+"0",
+"5",
+"10" 
+],
+"ylabs": [
+ "-15",
+"-10",
 "-5",
 "0",
 "5",
-"10",
-"15" 
-],
-"ylabs": [
- "-10",
-"0",
 "10" 
 ],
-"legend": {
- "n": {
- "guide": "legend",
-"geoms": "polygon",
-"title": "n",
-"entries": [
- {
- "polygonfill": "#132B43",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "25" ] 
-},
-{
- "polygonfill": "#1F4464",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "20" ] 
-},
-{
- "polygonfill": "#2D5E88",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "15" ] 
-},
-{
- "polygonfill": "#3B7BAE",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "10" ] 
-},
-{
- "polygonfill": "#4998D6",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "5" ] 
-} 
-] 
-} 
-},
 "title": "geom_tile",
 "options": {
  "width":    400,

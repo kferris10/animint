@@ -165,7 +165,8 @@
 },
 "plots": {
  "map": {
- "strips": {
+ "legend": {},
+"strips": {
  "top": [
  "" 
 ],
@@ -294,7 +295,6 @@
 "45",
 "50" 
 ],
-"legend": {},
 "title": "Tornadoes in the US",
 "options": {
  "width":    970,
@@ -302,7 +302,8 @@
 } 
 },
 "ts": {
- "strips": {
+ "legend": {},
+"strips": {
  "top": [
  "" 
 ],
@@ -422,7 +423,6 @@
 "1000",
 "1500" 
 ],
-"legend": {},
 "title": "Number of Recorded Tornadoes, 1950-2006",
 "options": {
  "width":    400,

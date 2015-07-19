@@ -38,7 +38,53 @@
 "selectors": [],
 "plots": {
  "g7": {
- "strips": {
+ "legend": {
+ "count": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "count",
+"vars": "..count..",
+"legend_type": "fill",
+"entries": [
+ {
+ "polygonfill": "#55B1F7",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"polygonweight":      1,
+"label": [ "8" ] 
+},
+{
+ "polygonfill": "#448CC6",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"polygonweight":      1,
+"label": [ "6" ] 
+},
+{
+ "polygonfill": "#326A97",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"polygonweight":      1,
+"label": [ "4" ] 
+},
+{
+ "polygonfill": "#22496B",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"polygonweight":      1,
+"label": [ "2" ] 
+},
+{
+ "polygonfill": "#132B43",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"polygonweight":      1,
+"label": [ "0" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -87,9 +133,10 @@
 ],
 "y": [
  0.045455,
-0.29798,
-0.55051,
-0.80303 
+0.27273,
+   0.5,
+0.72727,
+0.95455 
 ] 
 } 
 },
@@ -106,10 +153,10 @@
 0.80992 
 ],
 "y": [
- 0.17172,
-0.42424,
-0.67677,
-0.92929 
+ 0.15909,
+0.38636,
+0.61364,
+0.84091 
 ] 
 } 
 },
@@ -133,17 +180,19 @@
 "xticks": true,
 "y": [
  0.045455,
-0.29798,
-0.55051,
-0.80303 
+0.27273,
+   0.5,
+0.72727,
+0.95455 
 ],
 "ylab": [
- "0.0",
-"2.5",
-"5.0",
-"7.5" 
+ "0",
+"2",
+"4",
+"6",
+"8" 
 ],
-"yrange": [  -0.45,   9.45 ],
+"yrange": [   -0.4,    8.4 ],
 "yline": true,
 "yticks": true 
 },
@@ -161,48 +210,12 @@
 "20" 
 ],
 "ylabs": [
- "0.0",
-"2.5",
-"5.0",
-"7.5" 
+ "0",
+"2",
+"4",
+"6",
+"8" 
 ],
-"legend": {
- "count": {
- "guide": "legend",
-"geoms": "polygon",
-"title": "count",
-"entries": [
- {
- "polygonfill": "#4998D6",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonweight":      1,
-"label": [ "7.5" ] 
-},
-{
- "polygonfill": "#3671A2",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonweight":      1,
-"label": [ "5.0" ] 
-},
-{
- "polygonfill": "#244C70",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonweight":      1,
-"label": [ "2.5" ] 
-},
-{
- "polygonfill": "#132B43",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonweight":      1,
-"label": [ "0.0" ] 
-} 
-] 
-} 
-},
 "title": "geom_histogram",
 "options": {
  "width":    400,

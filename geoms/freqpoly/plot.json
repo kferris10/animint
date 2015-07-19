@@ -6,10 +6,13 @@
 "aes": {
  "x": "clarity",
 "group": "cut",
-"colour": "cut" 
+"colour": "cut",
+"showSelectedlegendcolour": "cut" 
 },
 "params": [],
-"subset_order": [],
+"subset_order": [
+ "showSelectedlegendcolour" 
+],
 "types": {
  "colour": "rgb",
 "y": "numeric",
@@ -20,6 +23,7 @@
 "ncount": "numeric",
 "density": "numeric",
 "group": "integer",
+"showSelectedlegendcolour": "factor",
 "PANEL": "integer" 
 },
 "PANEL": 1,
@@ -27,14 +31,64 @@
 "total": 1,
 "chunk_order": [],
 "nest_order": [
- "group" 
+ "showSelectedlegendcolour",
+"group" 
 ] 
 } 
 },
-"selectors": [],
+"selectors": {
+ "cut": {
+ "selected": [ "Ideal", "Premium", "Good", "Very Good", "Fair" ],
+"type": "multiple",
+"update": [
+ "geom1_freqpoly_g20" 
+] 
+} 
+},
 "plots": {
  "g20": {
- "strips": {
+ "legend": {
+ "cut": {
+ "guide": "legend",
+"geoms": "path",
+"title": "cut",
+"vars": "cut",
+"legend_type": "colour",
+"entries": [
+ {
+ "pathcolour": "#F8766D",
+"pathsize":    0.5,
+"pathlinetype":      1,
+"label": [ "Fair" ] 
+},
+{
+ "pathcolour": "#A3A500",
+"pathsize":    0.5,
+"pathlinetype":      1,
+"label": [ "Good" ] 
+},
+{
+ "pathcolour": "#00BF7D",
+"pathsize":    0.5,
+"pathlinetype":      1,
+"label": [ "Very Good" ] 
+},
+{
+ "pathcolour": "#00B0F6",
+"pathsize":    0.5,
+"pathlinetype":      1,
+"label": [ "Premium" ] 
+},
+{
+ "pathcolour": "#E76BF3",
+"pathsize":    0.5,
+"pathlinetype":      1,
+"label": [ "Ideal" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -178,45 +232,6 @@
 "4000",
 "5000" 
 ],
-"legend": {
- "cut": {
- "guide": "legend",
-"geoms": "path",
-"title": "cut",
-"entries": [
- {
- "pathcolour": "#F8766D",
-"pathsize":    0.5,
-"pathlinetype":      1,
-"label": [ "Fair" ] 
-},
-{
- "pathcolour": "#A3A500",
-"pathsize":    0.5,
-"pathlinetype":      1,
-"label": [ "Good" ] 
-},
-{
- "pathcolour": "#00BF7D",
-"pathsize":    0.5,
-"pathlinetype":      1,
-"label": [ "Very Good" ] 
-},
-{
- "pathcolour": "#00B0F6",
-"pathsize":    0.5,
-"pathlinetype":      1,
-"label": [ "Premium" ] 
-},
-{
- "pathcolour": "#E76BF3",
-"pathsize":    0.5,
-"pathlinetype":      1,
-"label": [ "Ideal" ] 
-} 
-] 
-} 
-},
 "title": "geom_freqpoly",
 "options": {
  "width":    400,

@@ -57,7 +57,58 @@
 "selectors": [],
 "plots": {
  "g14": {
- "strips": {
+ "legend": {
+ "Density Level": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "Density Level",
+"vars": "..level..",
+"legend_type": "fill",
+"entries": [
+ {
+ "polygonfill": "#152F49",
+"polygoncolour": "#FFFFFF",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"polygonalpha":      1,
+"label": [ "2.5" ] 
+},
+{
+ "polygonfill": "#22496B",
+"polygoncolour": "#FFFFFF",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"polygonalpha":      1,
+"label": [ "2.0" ] 
+},
+{
+ "polygonfill": "#2F6490",
+"polygoncolour": "#FFFFFF",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"polygonalpha":      1,
+"label": [ "1.5" ] 
+},
+{
+ "polygonfill": "#3E80B6",
+"polygoncolour": "#FFFFFF",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"polygonalpha":      1,
+"label": [ "1.0" ] 
+},
+{
+ "polygonfill": "#4C9EDE",
+"polygoncolour": "#FFFFFF",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"polygonalpha":      1,
+"label": [ "0.5" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -160,55 +211,6 @@
 "ylabs": [
  "100" 
 ],
-"legend": {
- "Density Level": {
- "guide": "legend",
-"geoms": "polygon",
-"title": "Density Level",
-"entries": [
- {
- "polygonfill": "#152F49",
-"polygoncolour": "#FFFFFF",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonalpha":      1,
-"label": [ "2.5" ] 
-},
-{
- "polygonfill": "#22496B",
-"polygoncolour": "#FFFFFF",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonalpha":      1,
-"label": [ "2.0" ] 
-},
-{
- "polygonfill": "#2F6490",
-"polygoncolour": "#FFFFFF",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonalpha":      1,
-"label": [ "1.5" ] 
-},
-{
- "polygonfill": "#3E80B6",
-"polygoncolour": "#FFFFFF",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonalpha":      1,
-"label": [ "1.0" ] 
-},
-{
- "polygonfill": "#4C9EDE",
-"polygoncolour": "#FFFFFF",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"polygonalpha":      1,
-"label": [ "0.5" ] 
-} 
-] 
-} 
-},
 "title": "geom_density2d polygon",
 "options": {
  "width":    400,

@@ -140,7 +140,8 @@
 "selectors": [],
 "plots": {
  "g11": {
- "strips": {
+ "legend": {},
+"strips": {
  "top": [
  "" 
 ],
@@ -264,7 +265,6 @@
 "40",
 "60" 
 ],
-"legend": {},
 "title": "geom_contour",
 "options": {
  "width":    400,
@@ -272,7 +272,46 @@
 } 
 },
 "g12": {
- "strips": {
+ "legend": {
+ "height": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "height",
+"vars": "z",
+"legend_type": [ "fill", "colour" ],
+"entries": [
+ {
+ "polygonfill": "#51A6E9",
+"polygoncolour": "#51A6E9",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "100" ] 
+},
+{
+ "polygonfill": "#3F83BA",
+"polygoncolour": "#3F83BA",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "125" ] 
+},
+{
+ "polygonfill": "#2E628D",
+"polygoncolour": "#2E628D",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "150" ] 
+},
+{
+ "polygonfill": "#1E4262",
+"polygoncolour": "#1E4262",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "175" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -396,43 +435,6 @@
 "40",
 "60" 
 ],
-"legend": {
- "height": {
- "guide": "legend",
-"geoms": "polygon",
-"title": "height",
-"entries": [
- {
- "polygonfill": "#51A6E9",
-"polygoncolour": "#51A6E9",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "100" ] 
-},
-{
- "polygonfill": "#3F83BA",
-"polygoncolour": "#3F83BA",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "125" ] 
-},
-{
- "polygonfill": "#2E628D",
-"polygoncolour": "#2E628D",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "150" ] 
-},
-{
- "polygonfill": "#1E4262",
-"polygoncolour": "#1E4262",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "175" ] 
-} 
-] 
-} 
-},
 "title": "geom_tile + geom_contour",
 "options": {
  "width":    400,

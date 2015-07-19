@@ -6,16 +6,20 @@
 "aes": {
  "x": "total_bill",
 "y": "tip",
-"colour": "sex_smoker" 
+"colour": "sex_smoker",
+"showSelectedlegendcolour": "sex_smoker" 
 },
 "params": {
  "na.rm": false 
 },
-"subset_order": [],
+"subset_order": [
+ "showSelectedlegendcolour" 
+],
 "types": {
  "colour": "rgb",
 "x": "numeric",
 "y": "numeric",
+"showSelectedlegendcolour": "factor",
 "PANEL": "integer",
 "fill": "rgb" 
 },
@@ -23,13 +27,58 @@
 "chunks": 1,
 "total": 1,
 "chunk_order": [],
-"nest_order": [] 
+"nest_order": [
+ "showSelectedlegendcolour" 
+] 
 } 
 },
-"selectors": [],
+"selectors": {
+ "sex_smoker": {
+ "selected": [ "Female.No", "Male.No", "Male.Yes", "Female.Yes" ],
+"type": "multiple",
+"update": [
+ "geom1_point_plot" 
+] 
+} 
+},
 "plots": {
  "plot": {
- "strips": {
+ "legend": {
+ "sex_smoker": {
+ "guide": "legend",
+"geoms": "point",
+"title": "sex_smoker",
+"vars": "sex_smoker",
+"legend_type": "colour",
+"entries": [
+ {
+ "pointcolour": "#F8766D",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "Female.No" ] 
+},
+{
+ "pointcolour": "#7CAE00",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "Male.No" ] 
+},
+{
+ "pointcolour": "#00BFC4",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "Female.Yes" ] 
+},
+{
+ "pointcolour": "#C77CFF",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "Male.Yes" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -158,39 +207,6 @@
 "7.5",
 "10.0" 
 ],
-"legend": {
- "sex_smoker": {
- "guide": "legend",
-"geoms": "point",
-"title": "sex_smoker",
-"entries": [
- {
- "pointcolour": "#F8766D",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "Female.No" ] 
-},
-{
- "pointcolour": "#7CAE00",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "Male.No" ] 
-},
-{
- "pointcolour": "#00BFC4",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "Female.Yes" ] 
-},
-{
- "pointcolour": "#C77CFF",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "Male.Yes" ] 
-} 
-] 
-} 
-},
 "options": {
  "width":    400,
 "height":    400 

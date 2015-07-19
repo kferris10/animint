@@ -1122,6 +1122,8 @@
 "time": {
  "variable": "time2",
 "ms":   3000,
+"variable": "time2",
+"ms":   3000,
 "sequence": [ "1995", "1995.08493150685", "1995.16164383562", "1995.24657534247", "1995.32876712329", "1995.41369863014", "1995.49589041096", "1995.58082191781", "1995.66575342466", "1995.74794520548", "1995.83287671233", "1995.91506849315", "1996", "1996.08469945355", "1996.16393442623", "1996.24863387978", "1996.3306010929", "1996.41530054645", "1996.49726775956", "1996.58196721311", "1996.66666666667", "1996.74863387978", "1996.83333333333", "1996.91530054645", "1997", "1997.08493150685", "1997.16164383562", "1997.24657534247", "1997.32876712329", "1997.41369863014", "1997.49589041096", "1997.58082191781", "1997.66575342466", "1997.74794520548", "1997.83287671233", "1997.91506849315", "1998", "1998.08493150685", "1998.16164383562", "1998.24657534247", "1998.32876712329", "1998.41369863014", "1998.49589041096", "1998.58082191781", "1998.66575342466", "1998.74794520548", "1998.83287671233", "1998.91506849315", "1999", "1999.08493150685", "1999.16164383562", "1999.24657534247", "1999.32876712329", "1999.41369863014", "1999.49589041096", "1999.58082191781", "1999.66575342466", "1999.74794520548", "1999.83287671233", "1999.91506849315", "2000", "2000.08469945355", "2000.16393442623", "2000.24863387978", "2000.3306010929", "2000.41530054645", "2000.49726775956", "2000.58196721311", "2000.66666666667", "2000.74863387978", "2000.83333333333", "2000.91530054645" ] 
 },
 "selectors": {
@@ -1162,7 +1164,8 @@
 },
 "plots": {
  "timeseriestemp": {
- "strips": {
+ "legend": {},
+"strips": {
  "top": [
  "" 
 ],
@@ -1285,14 +1288,54 @@
 "20",
 "30" 
 ],
-"legend": {},
 "options": {
  "width":    900,
 "height":    450 
 } 
 },
 "airtemp": {
- "strips": {
+ "legend": {
+ "deg. C": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "deg. C",
+"vars": "tempdev",
+"legend_type": "fill",
+"entries": [
+ {
+ "polygonfill": "#FF0000",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "20" ] 
+},
+{
+ "polygonfill": "#FF7F7F",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "10" ] 
+},
+{
+ "polygonfill": "#FFFFFF",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "0" ] 
+},
+{
+ "polygonfill": "#7F7FFF",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "-10" ] 
+},
+{
+ "polygonfill": "#0000FF",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "-20" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -1386,20 +1429,41 @@
 "yangle":      0,
 "xlabs": [],
 "ylabs": [],
-"legend": {
+"title": "Temperature Deviation from Monthly Norm",
+"options": {
+ "width":    450,
+"height":    450 
+} 
+},
+"surftemp": {
+ "legend": {
  "deg. C": {
  "guide": "legend",
 "geoms": "polygon",
 "title": "deg. C",
+"vars": "surftemp",
+"legend_type": "fill",
 "entries": [
  {
- "polygonfill": "#FF0000",
+ "polygonfill": "#FF1C1C",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "40" ] 
+},
+{
+ "polygonfill": "#FF5454",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "30" ] 
+},
+{
+ "polygonfill": "#FF8D8D",
 "polygonsize":    0.1,
 "polygonlinetype":      1,
 "label": [ "20" ] 
 },
 {
- "polygonfill": "#FF7F7F",
+ "polygonfill": "#FFC5C5",
 "polygonsize":    0.1,
 "polygonlinetype":      1,
 "label": [ "10" ] 
@@ -1411,28 +1475,15 @@
 "label": [ "0" ] 
 },
 {
- "polygonfill": "#7F7FFF",
+ "polygonfill": "#C5C5FF",
 "polygonsize":    0.1,
 "polygonlinetype":      1,
 "label": [ "-10" ] 
-},
-{
- "polygonfill": "#0000FF",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "-20" ] 
 } 
 ] 
 } 
 },
-"title": "Temperature Deviation from Monthly Norm",
-"options": {
- "width":    450,
-"height":    450 
-} 
-},
-"surftemp": {
- "strips": {
+"strips": {
  "top": [
  "" 
 ],
@@ -1526,51 +1577,6 @@
 "yangle":      0,
 "xlabs": [],
 "ylabs": [],
-"legend": {
- "deg. C": {
- "guide": "legend",
-"geoms": "polygon",
-"title": "deg. C",
-"entries": [
- {
- "polygonfill": "#FF1C1C",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "40" ] 
-},
-{
- "polygonfill": "#FF5454",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "30" ] 
-},
-{
- "polygonfill": "#FF8D8D",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "20" ] 
-},
-{
- "polygonfill": "#FFC5C5",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "10" ] 
-},
-{
- "polygonfill": "#FFFFFF",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "0" ] 
-},
-{
- "polygonfill": "#C5C5FF",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "-10" ] 
-} 
-] 
-} 
-},
 "title": "Surface Temperature",
 "options": {
  "width":    450,
@@ -1578,7 +1584,46 @@
 } 
 },
 "cloudslow": {
- "strips": {
+ "legend": {
+ "Coverage": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "Coverage",
+"vars": "cloudlow",
+"legend_type": "fill",
+"entries": [
+ {
+ "polygonfill": "#E8F5FB",
+"polygoncolour": "#BEBEBE",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "60" ] 
+},
+{
+ "polygonfill": "#CAE8F5",
+"polygoncolour": "#BEBEBE",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "40" ] 
+},
+{
+ "polygonfill": "#AADAF0",
+"polygoncolour": "#BEBEBE",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "20" ] 
+},
+{
+ "polygonfill": "#86CDEB",
+"polygoncolour": "#BEBEBE",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "0" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -1672,11 +1717,20 @@
 "yangle":      0,
 "xlabs": [],
 "ylabs": [],
-"legend": {
+"title": "Low Altitute Cloud Cover",
+"options": {
+ "width":    450,
+"height":    450 
+} 
+},
+"cloudsmid": {
+ "legend": {
  "Coverage": {
  "guide": "legend",
 "geoms": "polygon",
 "title": "Coverage",
+"vars": "cloudmid",
+"legend_type": "fill",
 "entries": [
  {
  "polygonfill": "#E8F5FB",
@@ -1709,14 +1763,7 @@
 ] 
 } 
 },
-"title": "Low Altitute Cloud Cover",
-"options": {
- "width":    450,
-"height":    450 
-} 
-},
-"cloudsmid": {
- "strips": {
+"strips": {
  "top": [
  "" 
 ],
@@ -1810,43 +1857,6 @@
 "yangle":      0,
 "xlabs": [],
 "ylabs": [],
-"legend": {
- "Coverage": {
- "guide": "legend",
-"geoms": "polygon",
-"title": "Coverage",
-"entries": [
- {
- "polygonfill": "#E8F5FB",
-"polygoncolour": "#BEBEBE",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "60" ] 
-},
-{
- "polygonfill": "#CAE8F5",
-"polygoncolour": "#BEBEBE",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "40" ] 
-},
-{
- "polygonfill": "#AADAF0",
-"polygoncolour": "#BEBEBE",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "20" ] 
-},
-{
- "polygonfill": "#86CDEB",
-"polygoncolour": "#BEBEBE",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "0" ] 
-} 
-] 
-} 
-},
 "title": "Mid Altitute Cloud Cover",
 "options": {
  "width":    450,
@@ -1854,7 +1864,42 @@
 } 
 },
 "cloudshigh": {
- "strips": {
+ "legend": {
+ "Coverage": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "Coverage",
+"vars": "cloudhigh",
+"legend_type": "fill",
+"entries": [
+ {
+ "polygonfill": "#E8F5FB",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "60" ] 
+},
+{
+ "polygonfill": "#CAE8F5",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "40" ] 
+},
+{
+ "polygonfill": "#AADAF0",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "20" ] 
+},
+{
+ "polygonfill": "#86CDEB",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "0" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -1948,39 +1993,6 @@
 "yangle":      0,
 "xlabs": [],
 "ylabs": [],
-"legend": {
- "Coverage": {
- "guide": "legend",
-"geoms": "polygon",
-"title": "Coverage",
-"entries": [
- {
- "polygonfill": "#E8F5FB",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "60" ] 
-},
-{
- "polygonfill": "#CAE8F5",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "40" ] 
-},
-{
- "polygonfill": "#AADAF0",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "20" ] 
-},
-{
- "polygonfill": "#86CDEB",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "0" ] 
-} 
-] 
-} 
-},
 "title": "High Altitute Cloud Cover",
 "options": {
  "width":    450,
@@ -1988,7 +2000,42 @@
 } 
 },
 "ozone": {
- "strips": {
+ "legend": {
+ "Concentration": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "Concentration",
+"vars": "ozone",
+"legend_type": "fill",
+"entries": [
+ {
+ "polygonfill": "#BB564D",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "360" ] 
+},
+{
+ "polygonfill": "#D68A81",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "320" ] 
+},
+{
+ "polygonfill": "#EBBEB8",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "280" ] 
+},
+{
+ "polygonfill": "#FCF4F3",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "240" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -2082,39 +2129,6 @@
 "yangle":      0,
 "xlabs": [],
 "ylabs": [],
-"legend": {
- "Concentration": {
- "guide": "legend",
-"geoms": "polygon",
-"title": "Concentration",
-"entries": [
- {
- "polygonfill": "#BB564D",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "360" ] 
-},
-{
- "polygonfill": "#D68A81",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "320" ] 
-},
-{
- "polygonfill": "#EBBEB8",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "280" ] 
-},
-{
- "polygonfill": "#FCF4F3",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "240" ] 
-} 
-] 
-} 
-},
 "title": "Ozone Concentration",
 "options": {
  "width":    450,

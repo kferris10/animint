@@ -39,7 +39,46 @@
 "selectors": [],
 "plots": {
  "g15": {
- "strips": {
+ "legend": {
+ "density": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "density",
+"vars": "..density..",
+"legend_type": [ "fill", "colour" ],
+"entries": [
+ {
+ "polygonfill": "#21486A",
+"polygoncolour": "#21486A",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "2e-04" ] 
+},
+{
+ "polygonfill": "#326996",
+"polygoncolour": "#326996",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "4e-04" ] 
+},
+{
+ "polygonfill": "#438CC5",
+"polygoncolour": "#438CC5",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "6e-04" ] 
+},
+{
+ "polygonfill": "#55B1F7",
+"polygoncolour": "#55B1F7",
+"polygonsize":    0.1,
+"polygonlinetype":      1,
+"label": [ "8e-04" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -80,9 +119,8 @@
 "lineend": "butt",
 "loc": {
  "x": [
- 0.30401,
-0.62012,
-0.93623 
+ 0.3368,
+0.69549 
 ],
 "y": [
  0.045455,
@@ -99,9 +137,9 @@
 "lineend": "butt",
 "loc": {
  "x": [
- 0.14596,
-0.46207,
-0.77818 
+ 0.15745,
+0.51614,
+0.87483 
 ],
 "y": [
  0.16507,
@@ -113,16 +151,14 @@
 },
 "axis1": {
  "x": [
- 0.30401,
-0.62012,
-0.93623 
+ 0.3368,
+0.69549 
 ],
 "xlab": [
  "1",
-"2",
-"3" 
+"2" 
 ],
-"xrange": [ 0.038276, 3.2017 ],
+"xrange": [ 0.061034,  2.849 ],
 "xline": true,
 "xticks": true,
 "y": [
@@ -149,8 +185,7 @@
 "yangle":      0,
 "xlabs": [
  "1",
-"2",
-"3" 
+"2" 
 ],
 "ylabs": [
  "0",
@@ -158,43 +193,6 @@
 "10000",
 "15000" 
 ],
-"legend": {
- "density": {
- "guide": "legend",
-"geoms": "polygon",
-"title": "density",
-"entries": [
- {
- "polygonfill": "#21486A",
-"polygoncolour": "#21486A",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "2e-04" ] 
-},
-{
- "polygonfill": "#326996",
-"polygoncolour": "#326996",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "4e-04" ] 
-},
-{
- "polygonfill": "#438CC5",
-"polygoncolour": "#438CC5",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "6e-04" ] 
-},
-{
- "polygonfill": "#55B1F7",
-"polygoncolour": "#55B1F7",
-"polygonsize":    0.1,
-"polygonlinetype":      1,
-"label": [ "8e-04" ] 
-} 
-] 
-} 
-},
 "title": "geom_density2d tile",
 "options": {
  "width":    400,

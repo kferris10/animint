@@ -60,7 +60,8 @@
 "selectors": [],
 "plots": {
  "g13": {
- "strips": {
+ "legend": {},
+"strips": {
  "top": [
  "" 
 ],
@@ -163,7 +164,6 @@
 "ylabs": [
  "100" 
 ],
-"legend": {},
 "title": "geom_contour 2d density",
 "options": {
  "width":    400,

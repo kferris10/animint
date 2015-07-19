@@ -35,7 +35,33 @@
 "selectors": [],
 "plots": {
  "g21": {
- "strips": {
+ "legend": {
+ "count": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "count",
+"vars": null,
+"legend_type": "fill",
+"entries": [
+ {
+ "polygonfill": "#1F4465",
+"polygonsize":    0.5,
+"label": [ "90" ] 
+},
+{
+ "polygonfill": "#316793",
+"polygonsize":    0.5,
+"label": [ "60" ] 
+},
+{
+ "polygonfill": "#438BC5",
+"polygonsize":    0.5,
+"label": [ "30" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -76,15 +102,14 @@
 "lineend": "butt",
 "loc": {
  "x": [
- 0.29671,
-0.62372,
-0.95073 
+ 0.33591,
+0.70089 
 ],
 "y": [
  0.018717,
-0.27143,
-0.52414,
-0.77684 
+0.2698,
+0.52087,
+0.77195 
 ] 
 } 
 },
@@ -95,37 +120,35 @@
 "lineend": "butt",
 "loc": {
  "x": [
- 0.1332,
-0.46021,
-0.78723 
+ 0.15343,
+0.5184,
+0.88338 
 ],
 "y": [
- 0.14507,
-0.39778,
-0.65049,
-0.9032 
+ 0.14426,
+0.39534,
+0.64641,
+0.89749 
 ] 
 } 
 },
 "axis1": {
  "x": [
- 0.29671,
-0.62372,
-0.95073 
+ 0.33591,
+0.70089 
 ],
 "xlab": [
  "1",
-"2",
-"3" 
+"2" 
 ],
-"xrange": [ 0.092666, 3.1507 ],
+"xrange": [ 0.079624, 2.8195 ],
 "xline": true,
 "xticks": true,
 "y": [
  0.018717,
-0.27143,
-0.52414,
-0.77684 
+0.2698,
+0.52087,
+0.77195 
 ],
 "ylab": [
  "0",
@@ -133,7 +156,7 @@
 "10000",
 "15000" 
 ],
-"yrange": [ -370.32,  19415 ],
+"yrange": [ -372.72,  19541 ],
 "yline": true,
 "yticks": true 
 },
@@ -145,8 +168,7 @@
 "yangle":      0,
 "xlabs": [
  "1",
-"2",
-"3" 
+"2" 
 ],
 "ylabs": [
  "0",
@@ -154,25 +176,6 @@
 "10000",
 "15000" 
 ],
-"legend": {
- "count": {
- "guide": "legend",
-"geoms": "polygon",
-"title": "count",
-"entries": [
- {
- "polygonfill": "#234A6E",
-"polygonsize":    0.5,
-"label": [ "100" ] 
-},
-{
- "polygonfill": "#3B7CB0",
-"polygonsize":    0.5,
-"label": [ "50" ] 
-} 
-] 
-} 
-},
 "title": "geom_hex",
 "options": {
  "width":    400,

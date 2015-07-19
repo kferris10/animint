@@ -52,24 +52,34 @@
  "x": "xnew",
 "y": "y",
 "colour": "class",
-"fill": "class" 
+"fill": "class",
+"showSelectedlegendcolour": "class",
+"showSelectedlegendfill": "class" 
 },
 "params": {
  "na.rm": false 
 },
-"subset_order": [],
+"subset_order": [
+ "showSelectedlegendcolour",
+"showSelectedlegendfill" 
+],
 "types": {
  "colour": "rgb",
 "fill": "rgb",
 "x": "numeric",
 "y": "numeric",
+"showSelectedlegendcolour": "factor",
+"showSelectedlegendfill": "factor",
 "PANEL": "integer" 
 },
 "PANEL": 1,
 "chunks": 1,
 "total": 1,
 "chunk_order": [],
-"nest_order": [] 
+"nest_order": [
+ "showSelectedlegendcolour",
+"showSelectedlegendfill" 
+] 
 },
 "geom4_point_s4": {
  "geom": "point",
@@ -78,24 +88,34 @@
  "x": "xnew",
 "y": "y",
 "colour": "xnew",
-"fill": "xnew" 
+"fill": "xnew",
+"showSelectedlegendcolour": "xnew",
+"showSelectedlegendfill": "xnew" 
 },
 "params": {
  "na.rm": false 
 },
-"subset_order": [],
+"subset_order": [
+ "showSelectedlegendcolour",
+"showSelectedlegendfill" 
+],
 "types": {
  "colour": "rgb",
 "fill": "rgb",
 "x": "numeric",
 "y": "numeric",
+"showSelectedlegendcolour": "factor",
+"showSelectedlegendfill": "factor",
 "PANEL": "integer" 
 },
 "PANEL": 1,
 "chunks": 1,
 "total": 1,
 "chunk_order": [],
-"nest_order": [] 
+"nest_order": [
+ "showSelectedlegendcolour",
+"showSelectedlegendfill" 
+] 
 },
 "geom5_point_s6": {
  "geom": "point",
@@ -124,10 +144,28 @@
 "nest_order": [] 
 } 
 },
-"selectors": [],
+"selectors": {
+ "class": {
+ "selected": [ "high", "low" ],
+"type": "multiple",
+"update": [
+ "geom3_point_s3",
+"geom3_point_s3" 
+] 
+},
+"xnew": {
+ "selected": [ "60", "20", "40", "80", "100" ],
+"type": "multiple",
+"update": [
+ "geom4_point_s4",
+"geom4_point_s4" 
+] 
+} 
+},
 "plots": {
  "s1": {
- "strips": {
+ "legend": {},
+"strips": {
  "top": [
  "" 
 ],
@@ -168,17 +206,14 @@
 "lineend": "butt",
 "loc": {
  "x": [
- 0.041133,
-0.25756,
-0.47399,
-0.69041,
-0.90684 
+ 0.19474,
+0.46801,
+0.74128 
 ],
 "y": [
- 0.029686,
-0.29767,
-0.56565,
-0.83364 
+ 0.18226,
+0.47347,
+0.76468 
 ] 
 } 
 },
@@ -189,50 +224,44 @@
 "lineend": "butt",
 "loc": {
  "x": [
- 0.14935,
-0.36577,
-0.5822,
-0.79863 
+ 0.058103,
+0.33137,
+0.60465,
+0.87792 
 ],
 "y": [
- 0.16368,
-0.43166,
-0.69965,
-0.96763 
+ 0.036655,
+0.32787,
+0.61908,
+0.91029 
 ] 
 } 
 },
 "axis1": {
  "x": [
- 0.041133,
-0.25756,
-0.47399,
-0.69041,
-0.90684 
+ 0.19474,
+0.46801,
+0.74128 
 ],
 "xlab": [
- "0",
-"20",
-"40",
-"60",
-"80" 
-],
-"xrange": [ -3.8011, 88.609 ],
-"xline": true,
-"xticks": true,
-"y": [
- 0.029686,
-0.29767,
-0.56565,
-0.83364 
-],
-"ylab": [
- "0",
-"25",
+ "25",
 "50",
 "75" 
 ],
-"yrange": [ -2.7693,  90.52 ],
+"xrange": [ 7.1845, 98.668 ],
+"xline": true,
+"xticks": true,
+"y": [
+ 0.18226,
+0.47347,
+0.76468 
+],
+"ylab": [
+ "25",
+"50",
+"75" 
+],
+"yrange": [ 9.3532, 95.202 ],
 "yline": true,
 "yticks": true 
 },
@@ -243,19 +272,15 @@
 "yanchor": "end",
 "yangle":      0,
 "xlabs": [
- "0",
-"20",
-"40",
-"60",
-"80" 
-],
-"ylabs": [
- "0",
-"25",
+ "25",
 "50",
 "75" 
 ],
-"legend": {},
+"ylabs": [
+ "25",
+"50",
+"75" 
+],
 "title": "Titles are awesome",
 "options": {
  "width":    400,
@@ -263,7 +288,8 @@
 } 
 },
 "s2": {
- "strips": {
+ "legend": {},
+"strips": {
  "top": [
  "" 
 ],
@@ -311,10 +337,9 @@
 0.88462 
 ],
 "y": [
- 0.029686,
-0.29767,
-0.56565,
-0.83364 
+ 0.18226,
+0.47347,
+0.76468 
 ] 
 } 
 },
@@ -326,10 +351,10 @@
 "loc": {
  "x": [],
 "y": [
- 0.16368,
-0.43166,
-0.69965,
-0.96763 
+ 0.036655,
+0.32787,
+0.61908,
+0.91029 
 ] 
 } 
 },
@@ -342,28 +367,26 @@
 0.88462 
 ],
 "xlab": [
- "0",
-"20",
+ "20",
 "40",
 "60",
-"80" 
+"80",
+"100" 
 ],
 "xrange": [    0.4,    5.6 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.029686,
-0.29767,
-0.56565,
-0.83364 
+ 0.18226,
+0.47347,
+0.76468 
 ],
 "ylab": [
- "0",
-"25",
+ "25",
 "50",
 "75" 
 ],
-"yrange": [ -2.7693,  90.52 ],
+"yrange": [ 9.3532, 95.202 ],
 "yline": true,
 "yticks": true 
 },
@@ -374,19 +397,17 @@
 "yanchor": "end",
 "yangle":      0,
 "xlabs": [
- "0",
-"20",
+ "20",
 "40",
 "60",
-"80" 
+"80",
+"100" 
 ],
 "ylabs": [
- "0",
-"25",
+ "25",
 "50",
 "75" 
 ],
-"legend": {},
 "title": "Colours are cool",
 "options": {
  "width":    400,
@@ -394,7 +415,32 @@
 } 
 },
 "s3": {
- "strips": {
+ "legend": {
+ "class": {
+ "guide": "legend",
+"geoms": "point",
+"title": "class",
+"vars": "class",
+"legend_type": [ "colour", "fill" ],
+"entries": [
+ {
+ "pointcolour": "#FF0000",
+"pointfill": "#FF0000",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "high" ] 
+},
+{
+ "pointcolour": "#0000FF",
+"pointfill": "#0000FF",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "low" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -442,10 +488,9 @@
 0.88462 
 ],
 "y": [
- 0.029686,
-0.29767,
-0.56565,
-0.83364 
+ 0.18226,
+0.47347,
+0.76468 
 ] 
 } 
 },
@@ -457,10 +502,10 @@
 "loc": {
  "x": [],
 "y": [
- 0.16368,
-0.43166,
-0.69965,
-0.96763 
+ 0.036655,
+0.32787,
+0.61908,
+0.91029 
 ] 
 } 
 },
@@ -473,28 +518,26 @@
 0.88462 
 ],
 "xlab": [
- "0",
-"20",
+ "20",
 "40",
 "60",
-"80" 
+"80",
+"100" 
 ],
 "xrange": [    0.4,    5.6 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.029686,
-0.29767,
-0.56565,
-0.83364 
+ 0.18226,
+0.47347,
+0.76468 
 ],
 "ylab": [
- "0",
-"25",
+ "25",
 "50",
 "75" 
 ],
-"yrange": [ -2.7693,  90.52 ],
+"yrange": [ 9.3532, 95.202 ],
 "yline": true,
 "yticks": true 
 },
@@ -505,41 +548,17 @@
 "yanchor": "end",
 "yangle":      0,
 "xlabs": [
- "0",
-"20",
+ "20",
 "40",
 "60",
-"80" 
+"80",
+"100" 
 ],
 "ylabs": [
- "0",
-"25",
+ "25",
 "50",
 "75" 
 ],
-"legend": {
- "class": {
- "guide": "legend",
-"geoms": "point",
-"title": "class",
-"entries": [
- {
- "pointcolour": "#FF0000",
-"pointfill": "#FF0000",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "high" ] 
-},
-{
- "pointcolour": "#0000FF",
-"pointfill": "#0000FF",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "low" ] 
-} 
-] 
-} 
-},
 "title": "Manual colour/fill scales",
 "options": {
  "width":    400,
@@ -547,7 +566,53 @@
 } 
 },
 "s4": {
- "strips": {
+ "legend": {
+ "xnew": {
+ "guide": "legend",
+"geoms": "point",
+"title": "xnew",
+"vars": "xnew",
+"legend_type": [ "colour", "fill" ],
+"entries": [
+ {
+ "pointcolour": "#F8766D",
+"pointfill": "#F8766D",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "20" ] 
+},
+{
+ "pointcolour": "#A3A500",
+"pointfill": "#A3A500",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "40" ] 
+},
+{
+ "pointcolour": "#00BF7D",
+"pointfill": "#00BF7D",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "60" ] 
+},
+{
+ "pointcolour": "#00B0F6",
+"pointfill": "#00B0F6",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "80" ] 
+},
+{
+ "pointcolour": "#E76BF3",
+"pointfill": "#E76BF3",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "100" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -595,10 +660,9 @@
 0.88462 
 ],
 "y": [
- 0.029686,
-0.29767,
-0.56565,
-0.83364 
+ 0.18226,
+0.47347,
+0.76468 
 ] 
 } 
 },
@@ -610,10 +674,10 @@
 "loc": {
  "x": [],
 "y": [
- 0.16368,
-0.43166,
-0.69965,
-0.96763 
+ 0.036655,
+0.32787,
+0.61908,
+0.91029 
 ] 
 } 
 },
@@ -626,28 +690,26 @@
 0.88462 
 ],
 "xlab": [
- "0",
-"20",
+ "20",
 "40",
 "60",
-"80" 
+"80",
+"100" 
 ],
 "xrange": [    0.4,    5.6 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.029686,
-0.29767,
-0.56565,
-0.83364 
+ 0.18226,
+0.47347,
+0.76468 
 ],
 "ylab": [
- "0",
-"25",
+ "25",
 "50",
 "75" 
 ],
-"yrange": [ -2.7693,  90.52 ],
+"yrange": [ 9.3532, 95.202 ],
 "yline": true,
 "yticks": true 
 },
@@ -658,62 +720,17 @@
 "yanchor": "end",
 "yangle":      0,
 "xlabs": [
- "0",
-"20",
+ "20",
 "40",
 "60",
-"80" 
+"80",
+"100" 
 ],
 "ylabs": [
- "0",
-"25",
+ "25",
 "50",
 "75" 
 ],
-"legend": {
- "xnew": {
- "guide": "legend",
-"geoms": "point",
-"title": "xnew",
-"entries": [
- {
- "pointcolour": "#F8766D",
-"pointfill": "#F8766D",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "0" ] 
-},
-{
- "pointcolour": "#A3A500",
-"pointfill": "#A3A500",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "20" ] 
-},
-{
- "pointcolour": "#00BF7D",
-"pointfill": "#00BF7D",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "40" ] 
-},
-{
- "pointcolour": "#00B0F6",
-"pointfill": "#00B0F6",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "60" ] 
-},
-{
- "pointcolour": "#E76BF3",
-"pointfill": "#E76BF3",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "80" ] 
-} 
-] 
-} 
-},
 "title": "Categorical colour/fill scales",
 "options": {
  "width":    400,
@@ -721,7 +738,46 @@
 } 
 },
 "s6": {
- "strips": {
+ "legend": {
+ "x * y": {
+ "guide": "legend",
+"geoms": "point",
+"title": "x * y",
+"vars": [ "show_colour", "show_fill" ],
+"legend_type": [ "colour", "fill" ],
+"entries": [
+ {
+ "pointcolour": "#204567",
+"pointfill": "#204567",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "2000" ] 
+},
+{
+ "pointcolour": "#306490",
+"pointfill": "#306490",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "4000" ] 
+},
+{
+ "pointcolour": "#4085BC",
+"pointfill": "#4085BC",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "6000" ] 
+},
+{
+ "pointcolour": "#51A8EB",
+"pointfill": "#51A8EB",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "8000" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -762,17 +818,14 @@
 "lineend": "butt",
 "loc": {
  "x": [
- 0.041133,
-0.25756,
-0.47399,
-0.69041,
-0.90684 
+ 0.19474,
+0.46801,
+0.74128 
 ],
 "y": [
- 0.029686,
-0.29767,
-0.56565,
-0.83364 
+ 0.18226,
+0.47347,
+0.76468 
 ] 
 } 
 },
@@ -783,50 +836,44 @@
 "lineend": "butt",
 "loc": {
  "x": [
- 0.14935,
-0.36577,
-0.5822,
-0.79863 
+ 0.058103,
+0.33137,
+0.60465,
+0.87792 
 ],
 "y": [
- 0.16368,
-0.43166,
-0.69965,
-0.96763 
+ 0.036655,
+0.32787,
+0.61908,
+0.91029 
 ] 
 } 
 },
 "axis1": {
  "x": [
- 0.041133,
-0.25756,
-0.47399,
-0.69041,
-0.90684 
+ 0.19474,
+0.46801,
+0.74128 
 ],
 "xlab": [
- "0",
-"20",
-"40",
-"60",
-"80" 
-],
-"xrange": [ -3.8011, 88.609 ],
-"xline": true,
-"xticks": true,
-"y": [
- 0.029686,
-0.29767,
-0.56565,
-0.83364 
-],
-"ylab": [
- "0",
-"25",
+ "25",
 "50",
 "75" 
 ],
-"yrange": [ -2.7693,  90.52 ],
+"xrange": [ 7.1845, 98.668 ],
+"xline": true,
+"xticks": true,
+"y": [
+ 0.18226,
+0.47347,
+0.76468 
+],
+"ylab": [
+ "25",
+"50",
+"75" 
+],
+"yrange": [ 9.3532, 95.202 ],
 "yline": true,
 "yticks": true 
 },
@@ -837,48 +884,15 @@
 "yanchor": "end",
 "yangle":      0,
 "xlabs": [
- "0",
-"20",
-"40",
-"60",
-"80" 
-],
-"ylabs": [
- "0",
-"25",
+ "25",
 "50",
 "75" 
 ],
-"legend": {
- "x * y": {
- "guide": "legend",
-"geoms": "point",
-"title": "x * y",
-"entries": [
- {
- "pointcolour": "#234C70",
-"pointfill": "#234C70",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "2000" ] 
-},
-{
- "pointcolour": "#3670A1",
-"pointfill": "#3670A1",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "4000" ] 
-},
-{
- "pointcolour": "#4997D4",
-"pointfill": "#4997D4",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "6000" ] 
-} 
-] 
-} 
-},
+"ylabs": [
+ "25",
+"50",
+"75" 
+],
 "title": "Continuous color scales",
 "options": {
  "width":    400,

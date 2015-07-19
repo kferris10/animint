@@ -80,7 +80,39 @@
 "selectors": [],
 "plots": {
  "g17": {
- "strips": {
+ "legend": {
+ "value": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "value",
+"vars": "value",
+"legend_type": [ "fill", "colour" ],
+"entries": [
+ {
+ "polygonfill": "#1E4161",
+"polygoncolour": "#1E4161",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"label": [ "100" ] 
+},
+{
+ "polygonfill": "#346E9D",
+"polygoncolour": "#346E9D",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"label": [ "200" ] 
+},
+{
+ "polygonfill": "#4C9EDE",
+"polygoncolour": "#4C9EDE",
+"polygonsize":    0.5,
+"polygonlinetype":      1,
+"label": [ "300" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -211,36 +243,6 @@
 "50",
 "60" 
 ],
-"legend": {
- "value": {
- "guide": "legend",
-"geoms": "polygon",
-"title": "value",
-"entries": [
- {
- "polygonfill": "#1E4161",
-"polygoncolour": "#1E4161",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"label": [ "100" ] 
-},
-{
- "polygonfill": "#346E9D",
-"polygoncolour": "#346E9D",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"label": [ "200" ] 
-},
-{
- "polygonfill": "#4C9EDE",
-"polygoncolour": "#4C9EDE",
-"polygonsize":    0.5,
-"polygonlinetype":      1,
-"label": [ "300" ] 
-} 
-] 
-} 
-},
 "title": "geom_polygon map",
 "options": {
  "width":    400,

@@ -7,17 +7,24 @@
  "x": "xnew",
 "y": "y",
 "colour": "class4",
-"fill": "class4" 
+"fill": "class4",
+"showSelectedlegendcolour": "class4",
+"showSelectedlegendfill": "class4" 
 },
 "params": {
  "na.rm": false 
 },
-"subset_order": [],
+"subset_order": [
+ "showSelectedlegendcolour",
+"showSelectedlegendfill" 
+],
 "types": {
  "colour": "rgb",
 "fill": "rgb",
 "x": "numeric",
 "y": "numeric",
+"showSelectedlegendcolour": "factor",
+"showSelectedlegendfill": "factor",
 "PANEL": "integer",
 "group": "integer" 
 },
@@ -25,13 +32,64 @@
 "chunks": 1,
 "total": 1,
 "chunk_order": [],
-"nest_order": [] 
+"nest_order": [
+ "showSelectedlegendcolour",
+"showSelectedlegendfill" 
+] 
 } 
 },
-"selectors": [],
+"selectors": {
+ "class4": {
+ "selected": [ "medhigh", "low", "high", "medlow" ],
+"type": "multiple",
+"update": [
+ "geom1_jitter_s5",
+"geom1_jitter_s5" 
+] 
+} 
+},
 "plots": {
  "s5": {
- "strips": {
+ "legend": {
+ "class4": {
+ "guide": "legend",
+"geoms": "point",
+"title": "class4",
+"vars": "class4",
+"legend_type": [ "colour", "fill" ],
+"entries": [
+ {
+ "pointcolour": "#F8766D",
+"pointfill": "#F8766D",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "high" ] 
+},
+{
+ "pointcolour": "#7CAE00",
+"pointfill": "#7CAE00",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "medhigh" ] 
+},
+{
+ "pointcolour": "#00BFC4",
+"pointfill": "#00BFC4",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "medlow" ] 
+},
+{
+ "pointcolour": "#C77CFF",
+"pointfill": "#C77CFF",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "low" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -79,10 +137,9 @@
 0.88462 
 ],
 "y": [
- 0.029689,
-0.29767,
-0.56565,
-0.83364 
+ 0.18226,
+0.47347,
+0.76468 
 ] 
 } 
 },
@@ -94,10 +151,10 @@
 "loc": {
  "x": [],
 "y": [
- 0.16368,
-0.43166,
-0.69965,
-0.96763 
+ 0.036657,
+0.32787,
+0.61908,
+0.91029 
 ] 
 } 
 },
@@ -110,28 +167,26 @@
 0.88462 
 ],
 "xlab": [
- "0",
-"20",
+ "20",
 "40",
 "60",
-"80" 
+"80",
+"100" 
 ],
 "xrange": [    0.4,    5.6 ],
 "xline": true,
 "xticks": true,
 "y": [
- 0.029689,
-0.29767,
-0.56565,
-0.83364 
+ 0.18226,
+0.47347,
+0.76468 
 ],
 "ylab": [
- "0",
-"25",
+ "25",
 "50",
 "75" 
 ],
-"yrange": [ -2.7697,  90.52 ],
+"yrange": [  9.353, 95.202 ],
 "yline": true,
 "yticks": true 
 },
@@ -142,55 +197,17 @@
 "yanchor": "end",
 "yangle":      0,
 "xlabs": [
- "0",
-"20",
+ "20",
 "40",
 "60",
-"80" 
+"80",
+"100" 
 ],
 "ylabs": [
- "0",
-"25",
+ "25",
 "50",
 "75" 
 ],
-"legend": {
- "class4": {
- "guide": "legend",
-"geoms": "point",
-"title": "class4",
-"entries": [
- {
- "pointcolour": "#F8766D",
-"pointfill": "#F8766D",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "high" ] 
-},
-{
- "pointcolour": "#7CAE00",
-"pointfill": "#7CAE00",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "medhigh" ] 
-},
-{
- "pointcolour": "#00BFC4",
-"pointfill": "#00BFC4",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "medlow" ] 
-},
-{
- "pointcolour": "#C77CFF",
-"pointfill": "#C77CFF",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "low" ] 
-} 
-] 
-} 
-},
 "title": "geom_jitter",
 "options": {
  "width":    400,

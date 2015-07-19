@@ -64,7 +64,7 @@
 },
 "selectors": {
  "sex_smoker": {
- "selected": "Female.No",
+ "selected": "1",
 "type": "single",
 "update": [
  "geom1_point_plot1",
@@ -179,7 +179,42 @@
 } 
 },
 "plot2": {
- "strips": {
+ "legend": {
+ "sex_smoker": {
+ "guide": "legend",
+"geoms": "point",
+"title": "sex_smoker",
+"vars": "sex_smoker",
+"legend_type": "colour",
+"entries": [
+ {
+ "pointcolour": "#F8766D",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "Female.No" ] 
+},
+{
+ "pointcolour": "#7CAE00",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "Male.No" ] 
+},
+{
+ "pointcolour": "#00BFC4",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "Female.Yes" ] 
+},
+{
+ "pointcolour": "#C77CFF",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "Male.Yes" ] 
+} 
+] 
+} 
+},
+"strips": {
  "top": [
  "" 
 ],
@@ -308,39 +343,6 @@
 "7.5",
 "10.0" 
 ],
-"legend": {
- "sex_smoker": {
- "guide": "legend",
-"geoms": "point",
-"title": "sex_smoker",
-"entries": [
- {
- "pointcolour": "#F8766D",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "Female.No" ] 
-},
-{
- "pointcolour": "#7CAE00",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "Male.No" ] 
-},
-{
- "pointcolour": "#00BFC4",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "Female.Yes" ] 
-},
-{
- "pointcolour": "#C77CFF",
-"pointshape":     16,
-"pointsize":      2,
-"label": [ "Male.Yes" ] 
-} 
-] 
-} 
-},
 "options": {
  "width":    350,
 "height":    350 
